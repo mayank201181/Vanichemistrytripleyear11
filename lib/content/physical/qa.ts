@@ -537,22 +537,22 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Products drawn lower than reactants (energy given out / exothermic)",
-          keywords: ["products+lower", "products+below", "lower energy than the reactants", "reactants+higher", "reactants+above", "products are lower"],
+          keywords: ["products are lower", "products lower", "products at a lower", "products below", "products are below", "lower than the reactants", "lower energy than the reactants", "reactants are higher", "reactants higher", "reactants above", "higher than the products"],
           feedback: "For an exothermic reaction the products are at a LOWER energy than the reactants — the difference is given out to the surroundings.",
         },
         {
           point: "ΔH shown as the difference/arrow between the reactants and products levels",
-          keywords: ["h+reactants+products", "enthalpy change+reactants+products", "between+reactants+products", "from reactants to products", "difference+reactants+products"],
+          keywords: ["from reactants to products", "from the reactants to the products", "reactants level to the products", "reactants down to the products", "between the reactants and products", "between reactants and products", "difference between reactants", "difference between the reactants", "down to the products"],
           feedback: "ΔH is the vertical arrow from the reactants level to the products level (pointing down for exothermic).",
         },
         {
           point: "Activation energy shown from the reactants level up to the top of the hump/peak",
-          keywords: ["reactants+peak", "reactants+top", "reactants+hump", "reactants+maximum", "reactants+highest point"],
+          keywords: ["reactants up to", "reactants level up", "from reactants to the top", "from the reactants to the top", "reactants to the peak", "reactants to the top", "reactants to the hump", "reactants to the highest", "reactants to the maximum"],
           feedback: "Activation energy starts at the REACTANTS level and goes up to the top of the hump — not from the products or from zero.",
         },
         {
           point: "Catalysed hump is lower (lower activation energy) but ΔH unchanged",
-          keywords: ["lower hump", "lower peak", "smaller hump", "hump+lower", "peak+lower", "lower activation", "smaller activation", "activation energy+lower", "activation energy+smaller", "h is the same", "h stays the same", "h is unchanged", "h does not change", "h doesnt change"],
+          keywords: ["lower+same", "lower+unchanged", "lower+does not change", "lower+doesnt change", "lower+not change", "smaller+same", "smaller+unchanged", "smaller+does not change", "smaller+doesnt change"],
           feedback: "With a catalyst the hump is lower (alternative pathway with lower activation energy), but the reactant and product levels — and so ΔH — do not change.",
         },
       ],
@@ -587,7 +587,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "More successful collisions per unit time (so faster rate)",
-          keywords: ["successful collision", "effective collision", "successful+per second", "successful+unit time", "collisions+enough energy"],
+          keywords: ["successful collision", "effective collision", "successful+per second", "successful+unit time"],
           feedback: "Finish the chain: more successful collisions per unit time, so the reaction is faster.",
         },
       ],

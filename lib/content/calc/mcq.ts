@@ -625,7 +625,7 @@ export const mcq: QuestionSet<MCQ> = {
       answerIndex: 3,
       optionFeedback: [
         "1.0 mol of Na atoms — a lot, but the hydrogen sample has twice as many atoms because each H₂ molecule has two.",
-        "Tempting because 16 is the biggest O number you know, but 16 g of O₂ (Mr 32) is only 0.50 mol of molecules = 1.0 mol of O atoms.",
+        "Tempting if you treat 16 g as a mole of O₂ molecules, but O₂ has Mr 32: 16 g is 0.50 mol of molecules = only 1.0 mol of O atoms, half the hydrogen sample's 2.0 mol.",
         "0.10 mol of CO₂ molecules × 3 atoms = only 0.30 mol of atoms.",
         "2.0 g ÷ 2 = 1.0 mol of H₂ molecules, and each has 2 atoms → 2.0 mol of atoms = 1.20 × 10²⁴ atoms, the most.",
       ],

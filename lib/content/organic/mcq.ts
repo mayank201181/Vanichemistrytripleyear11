@@ -523,7 +523,7 @@ export const mcq: QuestionSet<MCQ> = {
       answerIndex: 2,
       optionFeedback: [
         "But-1-ene is CH₂=CHCH₂CH₃, where the C=C starts at carbon 1 — that is the first molecule.",
-        "Numbering from the other end gives a lower number. The C=C here starts at carbon 2 from either end, and you always use the lowest number.",
+        "There is no but-3-ene: you always number from the end that gives the lowest number, and here the C=C starts at carbon 2 counting from either end.",
         "The C=C double bond is between carbons 2 and 3 of the straight four-carbon chain, so it is but-2-ene.",
         "Butane is the ALKANE C₄H₁₀ with no double bond — it has two more hydrogen atoms.",
       ],
