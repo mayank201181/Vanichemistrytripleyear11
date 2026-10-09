@@ -6,6 +6,7 @@ import { MarkdownLite } from "./MarkdownLite";
 
 const STARTERS = [
   "Explain this more simply",
+  "Give me an analogy from my life",
   "Give me a hint, not the answer",
   "What wording gets the marks here?",
   "Quiz me with one quick question",

@@ -10,6 +10,8 @@ import { MarkdownLite } from "./MarkdownLite";
 import { Figure } from "./Figures";
 import { ListenButton } from "./ListenButton";
 import { AskTutorButton } from "./TutorDock";
+import { analogiesFor } from "@/lib/extras";
+import type { Analogy } from "@/lib/types";
 
 function plain(md: string) {
   return md.replace(/\*\*|\*|`/g, "").replace(/^\s*\|.*\|\s*$/gm, "").replace(/^- /gm, "");
@@ -137,6 +139,8 @@ function SectionCard({ s, n, topicTitle }: { s: GuideSection; n: number; topicTi
         </div>
       </div>
 
+      <Analogies list={analogiesFor(s.id)} />
+
       {s.workedExample && <WorkedExample ex={s.workedExample} />}
 
       <div className="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-4">
@@ -177,6 +181,14 @@ function SectionCard({ s, n, topicTitle }: { s: GuideSection; n: number; topicTi
         >
           🧑‍🔬 Ask the tutor
         </AskTutorButton>
+        <AskTutorButton
+          topic={`${topicTitle} — ${s.heading}`}
+          label={s.heading}
+          context={`She is reading the revision-guide section "${s.heading}" (${s.lesson}).\n\n${plain(s.body).slice(0, 4000)}`}
+          prompt="Explain this section with a new analogy from my everyday life, then tell me where the analogy breaks down."
+        >
+          💡 Another analogy
+        </AskTutorButton>
       </div>
     </section>
   );
@@ -212,6 +224,34 @@ function WorkedExample({ ex }: { ex: { problem: string; solution: string } }) {
           I&apos;ve tried — show the solution
         </button>
       )}
+    </div>
+  );
+}
+
+function Analogies({ list }: { list: Analogy[] }) {
+  const [open, setOpen] = useState<number | null>(null);
+  if (!list.length) return null;
+  return (
+    <div className="mt-4 rounded-2xl border border-pink-200 bg-gradient-to-br from-pink-50 to-amber-50 p-4">
+      <p className="text-sm font-extrabold text-pink-800">💡 Think of it like…</p>
+      <div className="mt-2 grid gap-3 md:grid-cols-2">
+        {list.map((a, i) => (
+          <div key={i} className="rounded-xl bg-white/80 p-3 shadow-sm">
+            <p className="font-bold text-slate-900">{a.title}</p>
+            <MarkdownLite text={a.text} className="mt-1 text-[0.95rem] text-slate-800" />
+            {open === i ? (
+              <p className="mt-2 rounded-lg bg-amber-50 px-2.5 py-1.5 text-sm text-amber-900">
+                <span className="font-semibold">⚠️ Where it breaks down: </span>
+                {a.breaksDown}
+              </p>
+            ) : (
+              <button onClick={() => setOpen(i)} className="mt-2 text-xs font-semibold text-pink-700 underline underline-offset-2">
+                Where does this analogy break down?
+              </button>
+            )}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

@@ -184,3 +184,13 @@ export interface GlossaryCard {
   /** Optional example, equation or memory help. */
   example?: string;
 }
+
+/** A relatable analogy for a guide section (kept separate from the audited content in lib/extras). */
+export interface Analogy {
+  /** Short hook, e.g. "Electrons are like a group chat". */
+  title: string;
+  /** The analogy itself, 2–5 sentences, mapping each part to the chemistry. */
+  text: string;
+  /** Where the analogy stops working — so it never plants a misconception. */
+  breaksDown: string;
+}
