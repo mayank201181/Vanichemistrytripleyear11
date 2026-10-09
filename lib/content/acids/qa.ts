@@ -454,7 +454,7 @@ export const qa: QuestionSet<QA> = {
         "Each pH unit is a factor of 10.",
       ],
       modelAnswer:
-        "(a) Both P (pH 1) and Q (pH 3) are strongly acidic, since both are in the range pH 0–3.\n(b) P has the higher concentration of H⁺ ions. They differ by 2 pH units, and each unit is a factor of 10, so P has 10 × 10 = 100 times the H⁺ concentration of Q.",
+        "(a) They are both strongly acidic: P (pH 1) and Q (pH 3) are both in the range pH 0–3.\n(b) P has the higher concentration of H⁺ ions. They differ by 2 pH units, and each unit is a factor of 10, so P has 10 × 10 = 100 times the H⁺ concentration of Q.",
       markScheme: [
         {
           point: "Both are strongly acidic (pH 1 and pH 3 are both in the range 0–3)",

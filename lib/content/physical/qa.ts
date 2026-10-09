@@ -537,7 +537,7 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Products drawn lower than reactants (energy given out / exothermic)",
-          keywords: ["products are lower", "products lower", "products at a lower", "products below", "products are below", "lower than the reactants", "lower energy than the reactants", "reactants are higher", "reactants higher", "reactants above", "higher than the products"],
+          keywords: ["products are lower", "products lower", "products at a lower", "lower energy level than the reactants", "products below", "products are below", "lower than the reactants", "lower energy than the reactants", "reactants are higher", "reactants higher", "reactants above", "higher than the products"],
           feedback: "For an exothermic reaction the products are at a LOWER energy than the reactants — the difference is given out to the surroundings.",
         },
         {
