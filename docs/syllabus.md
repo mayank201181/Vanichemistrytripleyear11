@@ -115,3 +115,91 @@ Method: 25.0 cm³ NaOH into a conical flask; 3 drops methyl orange; fill burette
 
 ### Practical skills (assessed in written papers)
 Naming apparatus (beaker, conical flask, measuring cylinder, burette, (volumetric) pipette, gas syringe, top-pan balance, thermometer, Liebig condenser, evaporating basin, crucible, Bunsen burner, filter funnel, delivery tube, boiling tube); units; reading scales to correct resolution (burette to nearest 0.05 cm³, read at bottom of meniscus at eye level); precision vs accuracy; repeat readings, means (ignoring anomalies), concordant results; independent/dependent/control variables; fair tests; sources of error and improvements; safety (eye protection, hazard symbols, fume cupboard for toxic gases); drawing results tables and graphs (line of best fit, gradients).
+
+---
+
+## C. What Vani has been taught so far (school cover sheets, Oct Year 11)
+
+Transcribed from the seven JFB unit cover sheets ("I will be able to…"). Syllabus numbers are 4CH1
+statement numbers; "C" = triple only. *Italic* = named practical / demonstration. Textbook page
+refs omitted.
+
+### Atomic structure · Periodic Table · Group 1 · Group 7 · States · Separation
+- **Atomic structure** — 1.15 draw an atom showing positions of protons, neutrons, electrons; recall their relative masses and charges · 1.16 atomic number, mass number, isotopes, relative atomic mass (Ar) · 1.17 calculate Ar from isotopic abundances.
+- **Periodic Table** — 1.18 elements arranged in order of atomic number, in groups and periods · 1.19 deduce electronic configurations of the first 20 elements from their position · 1.21 identify an element as metal or non-metal from its position · 1.22 relate electronic configuration of a main-group element to its position · 1.23 why elements in the same group have similar chemical properties · 1.24 why the noble gases (Group 0) do not readily react.
+- **Group 1 – Li, Na, K** — 1.25 word and balanced equations with state symbols (reactions in the spec; unfamiliar reactions given information) · 2.1 observations of the reactions with water, and how the similarities show they are a **family** of elements · 2.2 trend in reactivity with air and water · 2.3 use trends to predict properties of other alkali metals · **2.4C explain the trend in reactivity in terms of electronic configurations**.
+- **Group 7 – Cl, Br, I** — 2.5 recall colours, physical states (at room temperature) and trend in physical properties · 2.6 predict properties of other halogens from Group 7 trends.
+- **Halogen displacement reactions** — 2.7 displacement reactions of halogens and halides as evidence for the reactivity trend · **2.8C explain the trend in reactivity in terms of electronic configurations**.
+- **States of matter – diffusion** — recap: 1.1 three states in terms of arrangement, movement and energy of particles · 1.2 interconversions (names, how achieved, changes in arrangement/movement/energy). New: 1.3 explain results of experiments on dilution of coloured solutions and diffusion of gases.
+- **Separating methods – chromatography** — recap: 1.14 define atom and molecule · 1.8 classify element/compound/mixture · 1.9 pure substance has a fixed mp/bp, mixture melts/boils over a range · 1.4 solvent, solute, solution, saturated solution · 1.10 simple distillation, fractional distillation, filtration, crystallisation. New: 1.11 describe paper chromatography · 1.12 a chromatogram gives information about the composition of a mixture · 1.13 calculate Rf values to identify components · *practical: paper chromatography using inks / food colourings*.
+
+### Structure & Bonding (SB1–SB8)
+- **SB1 Ions & ionic bonds** (1.21, 1.24, 1.37–1.39) — noble gas full outer shell is particularly stable · metal/non-metal areas of the PT · metals lose electrons, non-metals gain · work out electrons gained/lost from group number / electron configuration · recall ion charges: Ag⁺, Cu²⁺, Fe²⁺, Fe³⁺, Pb²⁺, Zn²⁺ and polyatomic H⁺, OH⁻, NH₄⁺, CO₃²⁻, NO₃⁻, SO₄²⁻.
+- **SB2 Ionic bonding** (1.40–1.41) — write formulae of ionic compounds · ionic bonding = electrostatic attraction between oppositely charged ions · dot-and-cross diagrams for ionic compounds, **limited to combinations of elements from groups 1, 2, 3, 5, 6 and 7**.
+- **SB3 Giant ionic lattices** (1.42–1.43) — sketch a 2D ionic lattice · explain properties (high mp/bp) from structure · ionic substances must be molten or aqueous to conduct.
+- **SB4 Covalent bonding** (1.44–1.46) — covalent bond = electrostatic attraction between the nuclei and a shared pair of electrons · dot-and-cross for diatomic molecules (H₂, Cl₂, O₂, N₂, halogens), inorganic molecules (H₂O, NH₃, CO₂), and **organic molecules up to two carbon atoms** (methane, ethane, ethene, including halogen-containing ones).
+- **SB5 Simple covalent substances** (1.47–1.48, 1.51) — define a **molecule** (two or more atoms covalently bonded together) · high mp implies strong forces of attraction and vice versa · sketch a small covalent compound showing intermolecular interactions (dashed) and covalent bonds (solid) · use the term **intermolecular forces** · mp/bp of simple molecular substances generally increase with relative molecular mass · covalent compounds do not usually conduct.
+- **SB6 Giant covalent structures** (1.49–1.50) — definition of an **allotrope** · why giant covalent structures have high mp/bp · how the structures of diamond, graphite and **C₆₀ fullerene** influence their physical properties, including electrical conductivity and hardness.
+- **SB7 Bonding in metals** (1.52C–1.54C) — describe/sketch the arrangement of atoms in a metal · metallic bonding = electrostatic attraction between metal cations and a "sea" of delocalised electrons · explain electrical conductivity and malleability using this model.
+- **SB8 Key assessment** — identify bond type from formula (metal + non-metal = ionic) · simple chemical tests · use observations/data to classify bond type.
+
+### Quantitative Chemistry (QA)
+- **Amounts of substance** (1.27–1.28) — calculate Mr from Ar · the mole is the unit of amount of substance · calculations involving amount, Ar and Mr.
+- **Percentage by mass and Avogadro's constant** — define the mole in terms of **Avogadro's constant (6.02 × 10²³)** · use Avogadro's constant in mole calculations · calculate **percentage by mass** (of an element in a compound).
+- **Ratios of elements & empirical formulae** (1.31–1.33) — how formulae of simple compounds can be found experimentally, incl. metal oxides and salts containing water of crystallisation · empirical vs molecular formula · calculate both from experimental data.
+- **Empirical formulae from experimental data** (1.33, 1.36) — formula of a hydrated salt practical · *demonstration: formula of a metal oxide by **reduction** (e.g. copper(II) oxide)*.
+- **% oxygen in the air – core practical** (2.9, 2.10, 2.14) — approximate % by volume of the four most abundant gases in dry air · determine % oxygen using reactions of metals (e.g. **iron**) and non-metals (e.g. **phosphorus**) with air · *practical: % oxygen by volume using a metal or a non-metal*.
+- **Burning elements in oxygen** (2.11, 2.13) — combustion of magnesium, hydrogen and sulfur · use acid–base character of oxides to classify elements as metals/non-metals · CO₂ is a greenhouse gas; increasing amounts may contribute to climate change · (recap OC) products of complete/incomplete combustion; SO₂ from impurities in fuels; SO₂ and NOx → acid rain.
+- **CO₂ and decomposing carbonates** (2.12) — formation of CO₂ by thermal decomposition of metal carbonates, incl. **copper(II) carbonate**.
+- **Balancing equations and gas tests** (1.25, 2.44) — word and balanced equations with state symbols · tests for H₂, O₂, Cl₂, NH₃, CO₂.
+- **Finding empirical formulae – core practical** (1.33, 1.36) — *practical: formula of a metal oxide by **combustion** (e.g. magnesium oxide)*.
+
+### Rates of Reaction (RR)
+- 3.9 describe experiments on effects of surface area of a solid, concentration of a solution, temperature and catalyst on rate.
+- **Surface area** — 3.10 describe and 3.11 explain (collision theory) · 3.15 *practical: effect of surface area of marble chips and concentration of HCl on rate*.
+- **Concentration** — 3.9, 3.10, 3.11, 3.15 as above.
+- **Pressure of a gas** — 3.10 describe and 3.11 explain the effect of changes in **pressure of a gas** on rate.
+- **Temperature** — 3.9, 3.10, 3.11.
+- **Catalysts** — 3.9, 3.10 · 3.12 catalyst increases rate but is chemically unchanged at the end · 3.13 works by providing an alternative pathway with lower activation energy · **3.14C draw and explain reaction profile diagrams showing ΔH and activation energy** · 3.16 *practical: effect of different solids on the catalytic decomposition of hydrogen peroxide solution*.
+
+### Acids & Bases (AA1–AA8)
+- **AA1 Acids, alkalis and indicators** (2.28–2.30) — litmus, phenolphthalein, methyl orange · pH 0–14: strongly acidic (0–3), weakly acidic (4–6), neutral (7), weakly alkaline (8–10), strongly alkaline (11–14) · universal indicator for approximate pH · *extension: a pH number differs in H⁺ concentration from the next by a **factor of 10***.
+- **AA2 Acid–base theory** (2.31–2.38) — acids in aqueous solution are a source of **H⁺**, alkalis a source of **OH⁻** · alkalis neutralise acids · **acid = proton donor, base = proton acceptor** (C) · reactions of HCl, H₂SO₄, HNO₃ with metals, bases and metal carbonates (excluding HNO₃ + metals) to form salts · metal oxides, metal hydroxides and ammonia can act as bases; alkalis are bases that are soluble in water.
+- **AA3 Neutralisation reactions** (1.25, 2.37) — word/balanced equations with state symbols; name salts from neutralisation; recall formulae of HCl, HNO₃, H₂SO₄.
+- **AA4 Making soluble salts** (2.39, 2.42) — prepare a soluble salt from an insoluble reactant · *practical: pure, dry hydrated copper(II) sulfate crystals from copper(II) oxide*.
+- **AA5 Solubility rules** (1.4, 2.34) — solvent, solute, solution, saturated solution · general solubility rules (Na, K, NH₄ compounds; nitrates; chlorides except Ag and Pb(II); sulfates except Ba, Ca, Pb(II); carbonates insoluble except Na, K, NH₄; hydroxides insoluble except Na, K, Ca slightly).
+- **AA5 Acid–alkali titration (triple)** (2.33C, 2.40C) — carry out a titration; prepare a pure, dry soluble salt from an acid and an alkali (neutralisation by titration, drop-by-drop at end point, precision of pipette/burette, choose apparatus, concordant titres).
+- **AA6 Making insoluble salts (triple)** (2.34, 2.41C, 2.43C) — solubility rules · **ionic equations for precipitation reactions** · prepare a pure, dry insoluble salt from two soluble reactants · *practical: pure, dry lead(II) sulfate*.
+- **AA7 Solubility (triple)** (1.4, 1.5C–1.7C) — solubility in g per 100 g of solvent · plot and interpret **solubility curves** · *practical: solubility of a solid at a specific temperature*.
+- **AA8** Retrieval practice.
+
+### Further Analytical (FAQ1–FAQ10)
+- **FAQ1 Cation tests** (2.45–2.47, 1.25) — flame test method; colours Li⁺ red, Na⁺ yellow, K⁺ lilac, Ca²⁺ orange-red, Cu²⁺ blue-green · NH₄⁺ with NaOH(aq) and identify the gas · Cu²⁺, Fe²⁺, Fe³⁺ with NaOH(aq) · equations with state symbols.
+- **FAQ2 Anion tests, recap water & gas tests** (2.48, 1.25) — Cl⁻, Br⁻, I⁻ with acidified silver nitrate · SO₄²⁻ with acidified barium chloride · CO₃²⁻ with HCl, identify the gas · equations.
+- **FAQ3 Combustion analysis and empirical formula** (1.33, 1.25) — equations; empirical and molecular formulae from experimental data.
+- **FAQ4 Reacting masses and yields** (1.29) — reacting masses from equations.
+- **FAQ5 Limiting reagents** (1.29) — reacting masses from experimental data when a reagent is in excess.
+- **FAQ6 Percentage yield practical** (1.30) — calculate percentage yield.
+- **FAQ7 Analytical revision – unknowns practical** (2.45–2.48, 1.25).
+- **FAQ8 Moles in solution & titration calculations** (1.34C) — amount, volume and concentration (mol/dm³).
+- **FAQ9 Titration practical.**
+- **FAQ10 Moles of gases** (1.35C) — gas volumes and molar volume 24 dm³ (24 000 cm³) at rtp.
+
+### Organic (OC1–OC7)
+- **OC1 Fractional distillation** — hydrocarbon = compound of hydrogen and carbon only · crude oil is a mixture of hydrocarbons · separation into fractions · names and uses of the main fractions · trends in colour, boiling point and viscosity.
+- **OC2 Alkanes** — empirical, molecular, general, structural and displayed formulae · possible structural formulae from a molecular formula · general formula of alkanes · why alkanes are saturated · structural and displayed formulae of alkanes up to **five** carbons · define homologous series, functional group, isomerism · substitution of alkanes with halogens in UV light.
+- **OC3 Combustion** — a fuel releases heat energy when burned · complete and incomplete combustion products · CO is poisonous (reduces the blood's capacity to carry oxygen) · in car engines the high temperature lets N₂ and O₂ from the air react, forming **oxides of nitrogen** · SO₂ from impurities in fuels · SO₂ and NOx → acid rain.
+- **OC4 Cracking** — long-chain alkanes → alkenes + shorter alkanes by catalytic cracking (silica/alumina, 600–700 °C) · why cracking is needed (supply and demand).
+- **OC5 Alkenes** — C=C functional group · general formula · unsaturated · structural/displayed formulae up to **four** carbons · name **unbranched-chain isomers** · addition of bromine to give dibromoalkanes · bromine water test.
+- **OC6 Polymers** — addition polymers from many monomers · repeat units of poly(ethene), poly(propene), poly(chloroethene) and poly(tetrafluoroethene) (PTFE) · monomer from repeat unit and vice versa · disposal problems: inertness / non-biodegradable, toxic gases when burned.
+- **OC7** Revision & formative assessment; retrieval quizzes.
+
+### 4CH1 units NOT yet taught (as of October, Year 11)
+- Electrolysis (1(i)), incl. half-equations.
+- Energetics beyond reaction profiles: calorimetry, Q = mcΔT, molar ΔH, bond energies.
+- Reversible reactions and equilibria (incl. Haber process, Le Chatelier).
+- Reactivity series, displacement of metals, redox in terms of oxygen/electrons, rusting.
+- Extraction and uses of metals (blast furnace, aluminium electrolysis, alloys).
+- Alcohols (fermentation, hydration of ethene, oxidation).
+- Carboxylic acids and esters.
+- Condensation polymers (polyesters, biopolyesters).

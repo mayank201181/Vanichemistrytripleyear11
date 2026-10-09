@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useStore, rankFor, streak, type Progress } from "@/lib/store";
 import { ALL_QUESTIONS, CONTENT, GUIDES, PAPER } from "@/lib/content";
-import { TOPICS, TOPIC_ORDER } from "@/lib/sections";
+import { STATUS_META, TOPICS, TOPIC_ORDER, topicStatus } from "@/lib/sections";
 import { openMistakes, sectionMastery } from "@/lib/share";
 import { ShareButton } from "@/components/ShareButton";
 import { useTutor } from "@/lib/tutor";
@@ -38,13 +38,14 @@ const ROADMAP: { title: string; blurb: string; tasks: Task[] }[] = [
     ],
   },
   {
-    title: "3 · The whole course",
-    blurb: "Work through every topic: guide → multiple choice → written.",
+    title: "3 · Everything taught so far",
+    blurb: "The rest of what your class has covered, then mixed tests.",
     tasks: [
-      { key: "g-principles", label: "Principles of Chemistry", href: "/guide/principles", done: guideDone("principles") },
-      { key: "g-electro", label: "Electrolysis", href: "/guide/electro", done: guideDone("electro") },
-      { key: "g-inorganic", label: "Inorganic Chemistry", href: "/guide/inorganic", done: guideDone("inorganic") },
-      { key: "g-organic", label: "Organic Chemistry", href: "/guide/organic", done: guideDone("organic") },
+      { key: "g-principles", label: "Guide: Principles (atoms, Periodic Table, separation)", href: "/guide/principles", done: guideDone("principles") },
+      { key: "g-calc", label: "Guide: Formulae, Equations & Moles", href: "/guide/calc", done: guideDone("calc") },
+      { key: "g-inorganic", label: "Guide: Groups 1 & 7, gases in the air", href: "/guide/inorganic" },
+      { key: "g-organic", label: "Guide: Organic (crude oil → polymers)", href: "/guide/organic" },
+      { key: "focus", label: "🎯 Taught-so-far test (do it weekly)", href: "/focus" },
       { key: "cram", label: "Print the cram sheet", href: "/cram" },
     ],
   },
@@ -93,6 +94,9 @@ export default function Home() {
         <div className="mt-5 flex flex-wrap gap-2">
           <Link href="/set/paper-jfb" className="rounded-xl bg-white px-4 py-2.5 font-bold text-indigo-700 shadow hover:bg-indigo-50">
             📄 {paperBest ? `Teacher's paper — best ${paperBest.pct}%` : "Start with the teacher's paper"}
+          </Link>
+          <Link href="/focus" className="rounded-xl bg-white/15 px-4 py-2.5 font-semibold text-white ring-1 ring-white/40 hover:bg-white/25">
+            🎯 Taught-so-far test
           </Link>
           <Link href="/guide/principles" className="rounded-xl bg-white/15 px-4 py-2.5 font-semibold text-white ring-1 ring-white/40 hover:bg-white/25">
             📖 Revision guides
@@ -157,8 +161,11 @@ export default function Home() {
       <section>
         <h2 className="mb-3 text-lg font-extrabold text-slate-900">🧭 Topics</h2>
         <div className="grid gap-4 md:grid-cols-2">
-          {TOPIC_ORDER.map((t) => {
+          {[...TOPIC_ORDER]
+            .sort((a, b) => ["taught", "partial", "later"].indexOf(topicStatus(a)) - ["taught", "partial", "later"].indexOf(topicStatus(b)))
+            .map((t) => {
             const topic = TOPICS[t];
+            const st = STATUS_META[topicStatus(t)];
             const c = CONTENT[t];
             const nq = c.mcq.questions.length + c.qa.questions.length;
             return (
@@ -168,7 +175,10 @@ export default function Home() {
                     {topic.emoji}
                   </span>
                   <div className="min-w-0">
-                    <h3 className="text-lg font-extrabold text-slate-900">{topic.title}</h3>
+                    <h3 className="flex flex-wrap items-center gap-2 text-lg font-extrabold text-slate-900">
+                      {topic.title}
+                      <span className={`rounded-full px-2 py-0.5 text-[11px] font-bold ${st.className}`}>{st.label}</span>
+                    </h3>
                     <p className="text-sm text-slate-500">
                       {topic.spec} · {GUIDES[t].length} sections · {nq} questions
                     </p>

@@ -24,40 +24,57 @@ export const TOPICS: Record<TopicId, { title: string; short: string; emoji: stri
   practical: { title: "Practical Skills", short: "Practical", emoji: "🔬", color: "#db2777", prefix: "pr", spec: "Practical skills" },
 };
 
-export const SECTIONS: { id: SectionId; topic: TopicId; label: string; emoji: string }[] = [
-  { id: "principles-states", topic: "principles", label: "States of matter & diffusion", emoji: "🧊" },
-  { id: "principles-mixtures", topic: "principles", label: "Mixtures & separation", emoji: "🧫" },
-  { id: "principles-atoms", topic: "principles", label: "Atomic structure & isotopes", emoji: "⚛️" },
-  { id: "principles-periodic", topic: "principles", label: "The Periodic Table", emoji: "🗂️" },
-  { id: "bonding-ionic", topic: "bonding", label: "Ionic bonding", emoji: "➕" },
-  { id: "bonding-covalent", topic: "bonding", label: "Covalent bonding", emoji: "🤝" },
-  { id: "bonding-metallic", topic: "bonding", label: "Metallic bonding", emoji: "🔩" },
-  { id: "calc-formulae", topic: "calc", label: "Formulae & equations", emoji: "✍️" },
-  { id: "calc-moles", topic: "calc", label: "Moles, masses & % yield", emoji: "⚖️" },
-  { id: "calc-volumes", topic: "calc", label: "Gas volumes & concentrations", emoji: "🎈" },
-  { id: "electro-principles", topic: "electro", label: "How electrolysis works", emoji: "🔋" },
-  { id: "electro-solutions", topic: "electro", label: "Electrolysis of solutions & half-equations", emoji: "💧" },
-  { id: "inorganic-group1", topic: "inorganic", label: "Group 1 — alkali metals", emoji: "💥" },
-  { id: "inorganic-group7", topic: "inorganic", label: "Group 7 — halogens", emoji: "🟡" },
-  { id: "inorganic-air", topic: "inorganic", label: "Gases in the atmosphere", emoji: "🌍" },
-  { id: "inorganic-reactivity", topic: "inorganic", label: "Reactivity series & redox", emoji: "🏆" },
-  { id: "inorganic-metals", topic: "inorganic", label: "Extraction & uses of metals", emoji: "🏭" },
-  { id: "acids-acids", topic: "acids", label: "Acids, alkalis & neutralisation", emoji: "🌈" },
-  { id: "acids-titration", topic: "acids", label: "Titration", emoji: "🧪" },
-  { id: "acids-salts", topic: "acids", label: "Making salts", emoji: "🧂" },
-  { id: "acids-tests", topic: "acids", label: "Chemical tests", emoji: "🔎" },
-  { id: "physical-energetics", topic: "physical", label: "Energetics", emoji: "🌡️" },
-  { id: "physical-rates", topic: "physical", label: "Rates of reaction", emoji: "⏱️" },
-  { id: "physical-equilibria", topic: "physical", label: "Reversible reactions & equilibria", emoji: "⇌" },
-  { id: "organic-intro", topic: "organic", label: "Organic basics & naming", emoji: "🔤" },
-  { id: "organic-crude", topic: "organic", label: "Crude oil & fuels", emoji: "🛢️" },
-  { id: "organic-hydrocarbons", topic: "organic", label: "Alkanes & alkenes", emoji: "🧬" },
-  { id: "organic-alcohols", topic: "organic", label: "Alcohols", emoji: "🍷" },
-  { id: "organic-acids-esters", topic: "organic", label: "Carboxylic acids & esters", emoji: "🍏" },
-  { id: "organic-polymers", topic: "organic", label: "Synthetic polymers", emoji: "🧵" },
-  { id: "practical-apparatus", topic: "practical", label: "Apparatus, measurement & results", emoji: "📏" },
-  { id: "practical-planning", topic: "practical", label: "Planning & evaluating experiments", emoji: "📋" },
+/** Where each section sits in Vani's school course (from the JFB cover sheets, October of Year 11). */
+export type TaughtStatus = "taught" | "partial" | "later";
+
+export const SECTIONS: { id: SectionId; topic: TopicId; label: string; emoji: string; status: TaughtStatus; note?: string }[] = [
+  { id: "principles-states", topic: "principles", label: "States of matter & diffusion", emoji: "🧊", status: "taught" },
+  { id: "principles-mixtures", topic: "principles", label: "Mixtures & separation", emoji: "🧫", status: "taught" },
+  { id: "principles-atoms", topic: "principles", label: "Atomic structure & isotopes", emoji: "⚛️", status: "taught" },
+  { id: "principles-periodic", topic: "principles", label: "The Periodic Table", emoji: "🗂️", status: "taught" },
+  { id: "bonding-ionic", topic: "bonding", label: "Ionic bonding", emoji: "➕", status: "taught" },
+  { id: "bonding-covalent", topic: "bonding", label: "Covalent bonding", emoji: "🤝", status: "taught" },
+  { id: "bonding-metallic", topic: "bonding", label: "Metallic bonding", emoji: "🔩", status: "taught" },
+  { id: "calc-formulae", topic: "calc", label: "Formulae & equations", emoji: "✍️", status: "taught" },
+  { id: "calc-moles", topic: "calc", label: "Moles, masses & % yield", emoji: "⚖️", status: "taught" },
+  { id: "calc-volumes", topic: "calc", label: "Gas volumes & concentrations", emoji: "🎈", status: "taught" },
+  { id: "electro-principles", topic: "electro", label: "How electrolysis works", emoji: "🔋", status: "later" },
+  { id: "electro-solutions", topic: "electro", label: "Electrolysis of solutions & half-equations", emoji: "💧", status: "later" },
+  { id: "inorganic-group1", topic: "inorganic", label: "Group 1 — alkali metals", emoji: "💥", status: "taught" },
+  { id: "inorganic-group7", topic: "inorganic", label: "Group 7 — halogens", emoji: "🟡", status: "taught" },
+  { id: "inorganic-air", topic: "inorganic", label: "Gases in the atmosphere", emoji: "🌍", status: "taught" },
+  { id: "inorganic-reactivity", topic: "inorganic", label: "Reactivity series & redox", emoji: "🏆", status: "later" },
+  { id: "inorganic-metals", topic: "inorganic", label: "Extraction & uses of metals", emoji: "🏭", status: "later" },
+  { id: "acids-acids", topic: "acids", label: "Acids, alkalis & neutralisation", emoji: "🌈", status: "taught" },
+  { id: "acids-titration", topic: "acids", label: "Titration", emoji: "🧪", status: "taught" },
+  { id: "acids-salts", topic: "acids", label: "Making salts", emoji: "🧂", status: "taught" },
+  { id: "acids-tests", topic: "acids", label: "Chemical tests", emoji: "🔎", status: "taught" },
+  { id: "physical-energetics", topic: "physical", label: "Energetics", emoji: "🌡️", status: "later", note: "Reaction profiles with ΔH and activation energy were covered in Rates; the rest of energetics comes later." },
+  { id: "physical-rates", topic: "physical", label: "Rates of reaction", emoji: "⏱️", status: "taught" },
+  { id: "physical-equilibria", topic: "physical", label: "Reversible reactions & equilibria", emoji: "⇌", status: "later" },
+  { id: "organic-intro", topic: "organic", label: "Organic basics & naming", emoji: "🔤", status: "partial", note: "Formulae, homologous series and isomers are taught; alcohol, carboxylic acid and ester names come later." },
+  { id: "organic-crude", topic: "organic", label: "Crude oil & fuels", emoji: "🛢️", status: "taught" },
+  { id: "organic-hydrocarbons", topic: "organic", label: "Alkanes & alkenes", emoji: "🧬", status: "taught" },
+  { id: "organic-alcohols", topic: "organic", label: "Alcohols", emoji: "🍷", status: "later" },
+  { id: "organic-acids-esters", topic: "organic", label: "Carboxylic acids & esters", emoji: "🍏", status: "later" },
+  { id: "organic-polymers", topic: "organic", label: "Synthetic polymers", emoji: "🧵", status: "partial", note: "Addition polymers are taught; condensation polymers (polyesters) come later." },
+  { id: "practical-apparatus", topic: "practical", label: "Apparatus, measurement & results", emoji: "📏", status: "taught" },
+  { id: "practical-planning", topic: "practical", label: "Planning & evaluating experiments", emoji: "📋", status: "taught" },
 ];
+
+export const STATUS_META: Record<TaughtStatus, { label: string; className: string }> = {
+  taught: { label: "Taught ✓", className: "bg-emerald-100 text-emerald-800" },
+  partial: { label: "Partly taught", className: "bg-amber-100 text-amber-900" },
+  later: { label: "Coming later", className: "bg-slate-200 text-slate-600" },
+};
+
+/** Topic-level status: taught if every section is, later if none is, otherwise partial. */
+export function topicStatus(t: TopicId): TaughtStatus {
+  const st = SECTIONS.filter((s) => s.topic === t).map((s) => s.status);
+  if (st.every((x) => x === "taught")) return "taught";
+  if (st.every((x) => x === "later")) return "later";
+  return "partial";
+}
 
 export function sectionMeta(id: string) {
   return SECTIONS.find((s) => s.id === id);
