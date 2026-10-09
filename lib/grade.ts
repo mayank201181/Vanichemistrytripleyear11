@@ -92,7 +92,9 @@ export function normalise(input: string): string {
   // sentence breaks become a "|" token so negation and phrases never reach across them
   // "=" in an equation reads as an arrow ("C + O2 = CO2"), not a sentence break
   s = s.replace(/=/g, " yields ");
-  s = s.replace(/(?<!\d)\.|\.(?!\d)|[;:!?\n\r]/g, " | ");
+  // ":" joins a label to its value ("Cathode: zinc", "B-10: 20%"), so it is not a break
+  s = s.replace(/:/g, " ");
+  s = s.replace(/(?<!\d)\.|\.(?!\d)|[;!?\n\r]/g, " | ");
   s = s.replace(/[^a-z0-9.|\s]/g, " ");
   for (const [re, to] of SPELLING) s = s.replace(re, to);
   return s.replace(/\s+/g, " ").trim();
