@@ -370,7 +370,7 @@ const questions: QA[] = [
       },
       {
         point: "Diamond: giant covalent structure — many strong covalent bonds must be broken",
-        keywords: ["giant covalent", "giant structure", "many+covalent bonds", "lots of+covalent bonds", "strong covalent bonds+break", "covalent bonds+broken", "bonded to four", "4 other"],
+        keywords: ["giant covalent", "giant structure", "giant lattice", "macromolecul", "many+covalent bonds", "lots of+covalent bonds", "all+covalent bonds", "bonded to four", "bonded to 4", "4 other", "four other"],
         feedback: "Diamond is giant covalent: every atom is joined by strong covalent bonds, and melting would mean breaking a huge number of them.",
       },
       {
@@ -380,7 +380,7 @@ const questions: QA[] = [
       },
       {
         point: "Little energy needed to overcome these forces (covalent bonds in C₆₀ not broken)",
-        keywords: ["little energy", "less energy", "not much energy", "small amount of energy", "easily overcome", "easy to overcome", "bonds+not broken", "do not break", "dont break"],
+        keywords: ["forces+little energy", "forces+less energy", "forces+not much energy", "forces+small amount of energy", "forces+easily overcome", "forces+easy to overcome", "bonds+not broken", "do not break", "dont break"],
         feedback: "Only the weak forces between molecules are overcome, which needs little energy — the C–C covalent bonds inside each C₆₀ molecule are not broken.",
       },
     ],
