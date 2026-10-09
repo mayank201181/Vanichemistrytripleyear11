@@ -106,7 +106,7 @@ Check charge: (+2) + (−2) = 0 on the left; 0 on the right. ✓
     id: "calc-moles",
     topic: "calc",
     lesson: "4CH1 1(e) · Triple (water of crystallisation)",
-    heading: "Moles, reacting masses, % yield & formulae",
+    heading: "Moles, Avogadro, reacting masses, % yield & formulae",
     discovery: {
       problem:
         "In Q1 of your teacher's paper, 9.75 g of zinc gives a maximum of about 45 g of hydrated zinc nitrate — the product is over four times heavier than the zinc. Where does all that extra mass come from, and how can you predict it before doing the experiment?",
@@ -124,6 +124,15 @@ Check charge: (+2) + (−2) = 0 on the left; 0 on the right. ✓
 
 **The mole.** One mole of a substance is its Mr in grams. So **moles = mass ÷ Mr** (and mass = moles × Mr).
 
+**Avogadro's constant.** One mole of any substance contains **6.02 × 10²³ particles** (atoms, molecules or ions — whichever the formula is made of). This number is **Avogadro's constant**, and it is how the mole is defined. So **number of particles = moles × 6.02 × 10²³**. Read carefully *which* particle is asked for:
+- 1 mol of H₂O contains 6.02 × 10²³ **molecules** but 3 × 6.02 × 10²³ = 1.806 × 10²⁴ **atoms** (2 H + 1 O in each molecule).
+- 1 mol of oxygen gas, O₂, is 6.02 × 10²³ molecules but 1.204 × 10²⁴ oxygen **atoms**.
+- 0.5 mol of CaCl₂ contains 0.5 × 6.02 × 10²³ = 3.01 × 10²³ formula units, so 3.01 × 10²³ Ca²⁺ ions and 6.02 × 10²³ Cl⁻ ions.
+
+Going backwards: moles = number of particles ÷ 6.02 × 10²³. Because the mole is a *count*, equal numbers of moles of any two substances contain equal numbers of particles — 12 g of carbon and 24 g of magnesium both contain 6.02 × 10²³ atoms.
+
+**Percentage by mass of an element in a compound** = (Ar × number of atoms of that element in the formula) ÷ Mr × 100. Example: % N in ammonium nitrate, NH₄NO₃ (Mr 80): (2 × 14) ÷ 80 × 100 = **35%**. Don't forget to multiply by the number of atoms — NH₄NO₃ has *two* nitrogens. The same idea gives the % by mass of water in a hydrated salt.
+
 **Reacting masses — always three steps:**
 - Moles of what you know: mass ÷ Mr.
 - **Use the mole ratio** from the balanced equation.
@@ -135,7 +144,9 @@ Check charge: (+2) + (−2) = 0 on the left; 0 on the right. ✓
 
 **Percentage yield** = (actual yield ÷ theoretical yield) × 100. Yields are below 100% because: the reaction may be **reversible** or incomplete; product is **lost** when filtering, transferring or washing; some product **stays dissolved** in the solution (crystals never all come out); or there are **side reactions**.
 
-**Empirical formula** = the simplest whole-number ratio of atoms. Method: mass (or %) of each element → divide by Ar → divide all by the smallest → round to whole numbers (if you get 1.5, double everything). In the practical, you find the formula of a metal oxide by heating a known mass of metal (e.g. magnesium in a lidded crucible, lifting the lid occasionally) until the mass is constant; the mass gain is oxygen.
+**Empirical formula** = the simplest whole-number ratio of atoms. Method: mass (or %) of each element → divide by Ar → divide all by the smallest → round to whole numbers (if you get 1.5, double everything). Two practicals give you the masses for a **metal oxide**:
+- **By combustion** (e.g. magnesium oxide): heat a weighed piece of magnesium in a lidded crucible, lifting the lid occasionally to let air in (but not let MgO smoke escape), until the mass is constant. Mass of oxygen = mass gained.
+- **By reduction** (e.g. copper(II) oxide): heat a weighed sample of copper(II) oxide in a tube in a stream of a reducing gas (hydrogen or methane), burning off the excess gas at the end, until the mass is constant; let it cool in the gas so the copper is not re-oxidised. Mass of oxygen = mass **lost**; what is left is copper.
 
 **Molecular formula** = the actual number of atoms in one molecule. Divide Mr by the empirical formula mass and multiply the empirical formula by that whole number. CH₂ (14) with Mr 56 → ×4 → C₄H₈.
 
@@ -174,10 +185,12 @@ Check charge: (+2) + (−2) = 0 on the left; 0 on the right. ✓
     keyPoints: [
       "Mr = sum of Ar values; for a hydrated salt add the water, e.g. CuSO₄·5H₂O = 159.5 + 90 = 249.5.",
       "moles = mass ÷ Mr; mass = moles × Mr.",
+      "One mole contains 6.02 × 10²³ particles (Avogadro's constant): number of particles = moles × 6.02 × 10²³ — multiply again by the atoms per molecule if atoms are asked for.",
+      "% by mass of an element = (Ar × number of those atoms) ÷ Mr × 100.",
       "Reacting masses: moles of known → mole ratio from the equation → mass of unknown.",
       "The limiting reactant is completely used up and decides the amount of product; the other reactant is in excess.",
       "% yield = actual ÷ theoretical × 100; it is below 100% because of incomplete/reversible reactions, losses on transfer or filtration, product left in solution, side reactions.",
-      "Empirical formula: divide mass or % by Ar, divide by the smallest, make whole numbers. Molecular formula: multiply by Mr ÷ empirical formula mass.",
+      "Empirical formula: divide mass or % by Ar, divide by the smallest, make whole numbers. Molecular formula: multiply by Mr ÷ empirical formula mass. Metal oxide practicals: combustion of Mg (mass gained = O) or reduction of CuO (mass lost = O).",
       "Water of crystallisation: heat to constant mass; x = moles of water ÷ moles of anhydrous salt.",
     ],
     whyItWorks:
@@ -190,7 +203,7 @@ Check charge: (+2) + (−2) = 0 on the left; 0 on the right. ✓
       "A student heats hydrated copper(II) sulfate but stops before the mass is constant. Will her value of x be too high or too low? Explain by following the effect through each step of the calculation.",
     workedExample: {
       problem:
-        "Mg(s) + H₂SO₄(aq) + 7H₂O(l) → MgSO₄·7H₂O(s) + H₂(g). (a) 2.40 g of magnesium reacts completely. Show that the maximum mass of hydrated magnesium sulfate is about 25 g. [Mr of MgSO₄·7H₂O = 246] (b) The student obtains 19.7 g of crystals. Calculate the percentage yield. (c) In another experiment, 4.92 g of MgSO₄·xH₂O is heated to constant mass, leaving 2.40 g of MgSO₄. Find x.",
+        "Mg(s) + H₂SO₄(aq) + 7H₂O(l) → MgSO₄·7H₂O(s) + H₂(g). (a) 2.40 g of magnesium reacts completely. Show that the maximum mass of hydrated magnesium sulfate is about 25 g. [Mr of MgSO₄·7H₂O = 246] (b) The student obtains 19.7 g of crystals. Calculate the percentage yield. (c) In another experiment, 4.92 g of MgSO₄·xH₂O is heated to constant mass, leaving 2.40 g of MgSO₄. Find x. (d) How many magnesium atoms are in 2.40 g of magnesium, and what is the percentage by mass of magnesium in MgSO₄? [Avogadro's constant = 6.02 × 10²³ /mol]",
       solution: `**(a)** Moles of Mg = 2.40 ÷ 24 = **0.100 mol**
 Mole ratio Mg : MgSO₄·7H₂O = 1 : 1 → 0.100 mol of product
 Mass = 0.100 × 246 = **24.6 g** (≈ 25 g) ✓
@@ -200,7 +213,10 @@ Mass = 0.100 × 246 = **24.6 g** (≈ 25 g) ✓
 **(c)** Mass of water = 4.92 − 2.40 = 2.52 g
 Moles of MgSO₄ (Mr 120) = 2.40 ÷ 120 = 0.0200 mol
 Moles of H₂O (Mr 18) = 2.52 ÷ 18 = 0.140 mol
-x = 0.140 ÷ 0.0200 = **7**, so the formula is MgSO₄·7H₂O.`,
+x = 0.140 ÷ 0.0200 = **7**, so the formula is MgSO₄·7H₂O.
+
+**(d)** Atoms of Mg = 0.100 × 6.02 × 10²³ = **6.02 × 10²²**
+% Mg in MgSO₄ = 24 ÷ 120 × 100 = **20%**`,
     },
   },
   {

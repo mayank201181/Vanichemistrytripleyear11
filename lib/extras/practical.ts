@@ -18,7 +18,7 @@ export const analogies: Partial<Record<SectionId, Analogy[]>> = {
       title: "Reading the meniscus at eye level = selfie angles lie",
       text: "A selfie from a high angle makes your face look different from one at eye level — the angle changes what you see. Reading a scale is the same: look from above or below and the liquid seems to sit at a different mark (**parallax error**). Put your **eye level with the bottom of the meniscus**. Then remember a burette's scale is like a basement car park — **0.00 is at the top** and the numbers **increase as you go down** — so the titre is **end reading − start reading**, recorded to **2 d.p.** ending in 0 or 5.",
       breaksDown:
-        "Selfie angles are about perspective of a 3D face; parallax is about lining up a level with a scale. For a meniscus that curves up (like mercury) you'd read the top, but for water-based solutions it's the bottom.",
+        "Selfie angles are about perspective of a 3D face; parallax is about lining up a level with a scale. For a liquid whose surface bulges upwards (like mercury) you would read the top, but for water-based solutions it's the bottom.",
     },
   ],
   "practical-planning": [
