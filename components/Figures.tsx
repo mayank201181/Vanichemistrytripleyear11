@@ -34,8 +34,9 @@ function BuretteWindow({ x, from, reading, title }: { x: number; from: number; r
       <text x={x + 30} y={24} fontSize="15" fontWeight="bold" fill={INK} textAnchor="middle">
         {title}
       </text>
-      <rect x={x} y={level} width={60} height={top + h - level} fill="#cbd5e1" />
-      <path d={`M ${x} ${level} Q ${x + 30} ${level + 6} ${x + 60} ${level}`} fill="#cbd5e1" stroke={INK} strokeWidth="1.2" />
+      {/* meniscus: a quadratic curve whose lowest point (its midpoint) sits exactly on the reading */}
+      <path d={`M ${x} ${level - 5} Q ${x + 30} ${level + 5} ${x + 60} ${level - 5} L ${x + 60} ${top + h} L ${x} ${top + h} Z`} fill="#cbd5e1" />
+      <path d={`M ${x} ${level - 5} Q ${x + 30} ${level + 5} ${x + 60} ${level - 5}`} fill="none" stroke={INK} strokeWidth="1.2" />
       <line x1={x} y1={top} x2={x} y2={top + h} stroke={INK} strokeWidth="1.5" />
       <line x1={x + 60} y1={top} x2={x + 60} y2={top + h} stroke={INK} strokeWidth="1.5" />
       <path d={`M ${x} ${top} l 10 -5 l 10 5 l 10 -5 l 10 5 l 10 -5 l 10 5`} fill="none" stroke={INK} />

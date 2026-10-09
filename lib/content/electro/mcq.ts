@@ -334,7 +334,7 @@ export const mcq: QuestionSet<MCQ> = {
         "This doubles the wrong way: the cathode gas (hydrogen) is the larger volume, so the anode gas (oxygen) must be smaller.",
         "Equal volumes would need equal numbers of moles, but 4 electrons make two H₂ molecules for every one O₂.",
         "4 electrons make 2H₂ at the cathode but only 1O₂ at the anode, so the oxygen volume is half: 30 ÷ 2 = 15 cm³.",
-        "This divides by 4 — you have probably compared electrons per O₂ (4) with molecules of H₂ (1) instead of electrons per H₂ (2).",
+        "This divides by 4, as if each H₂ needed only 1 electron. Each O₂ releases 4 electrons but each H₂ needs 2, so the volume ratio H₂ : O₂ is 2 : 1, not 4 : 1.",
       ],
       explanation:
         "Cathode: 2H⁺ + 2e⁻ → H₂. Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻.\nThe same number of electrons passes through each electrode. Per 4e⁻: 2 mol H₂ and 1 mol O₂.\nEqual moles of gas occupy equal volumes at the same temperature and pressure, so V(O₂) = 30 ÷ 2 = 15 cm³.",
