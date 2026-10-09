@@ -519,5 +519,80 @@ export const qa: QuestionSet<QA> = {
         "Saying 450 °C is used 'to increase the yield' — a higher temperature actually lowers the yield of this exothermic reaction; it is used for rate.",
       strategy: "Compare and contrast",
     },
+    {
+      id: "ph-w11",
+      topic: "physical",
+      section: "physical-rates",
+      difficulty: "challenge",
+      question:
+        "Hydrogen peroxide decomposes exothermically: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Manganese(IV) oxide is a catalyst for this reaction.\nDescribe the reaction profile diagram you would draw for this reaction, with and without the catalyst. Your description should say how ΔH and the activation energy are shown. (4)",
+      marks: 4,
+      hints: [
+        "Exothermic: are the products above or below the reactants?",
+        "Where does each arrow start and finish?",
+        "What does a catalyst change on the diagram, and what stays the same?",
+      ],
+      modelAnswer:
+        "Energy on the y-axis against progress of reaction. The products (2H₂O + O₂) are drawn at a lower energy level than the reactants (2H₂O₂), because the reaction is exothermic, joined by a curve with a hump. ΔH is a downward arrow from the reactants level to the products level. The activation energy is an arrow from the reactants level up to the top of the hump. With the catalyst, the hump is lower (smaller activation energy, an alternative pathway), but the reactants and products levels stay the same, so ΔH is unchanged.",
+      markScheme: [
+        {
+          point: "Products drawn lower than reactants (energy given out / exothermic)",
+          keywords: ["products+lower", "products+below", "lower energy than the reactants", "reactants+higher", "reactants+above", "products are lower"],
+          feedback: "For an exothermic reaction the products are at a LOWER energy than the reactants — the difference is given out to the surroundings.",
+        },
+        {
+          point: "ΔH shown as the difference/arrow between the reactants and products levels",
+          keywords: ["h+reactants+products", "enthalpy change+reactants+products", "between+reactants+products", "from reactants to products", "difference+reactants+products"],
+          feedback: "ΔH is the vertical arrow from the reactants level to the products level (pointing down for exothermic).",
+        },
+        {
+          point: "Activation energy shown from the reactants level up to the top of the hump/peak",
+          keywords: ["reactants+peak", "reactants+top", "reactants+hump", "reactants+maximum", "reactants+highest point"],
+          feedback: "Activation energy starts at the REACTANTS level and goes up to the top of the hump — not from the products or from zero.",
+        },
+        {
+          point: "Catalysed hump is lower (lower activation energy) but ΔH unchanged",
+          keywords: ["lower hump", "lower peak", "smaller hump", "hump+lower", "peak+lower", "lower activation", "smaller activation", "activation energy+lower", "activation energy+smaller", "h is the same", "h stays the same", "h is unchanged", "h does not change", "h doesnt change"],
+          feedback: "With a catalyst the hump is lower (alternative pathway with lower activation energy), but the reactant and product levels — and so ΔH — do not change.",
+        },
+      ],
+      commonError: "Drawing the activation energy from the products level, or showing the catalyst changing the products level (ΔH) as well as the hump.",
+      strategy: "Read the graph",
+    },
+    {
+      id: "ph-w12",
+      topic: "physical",
+      section: "physical-rates",
+      difficulty: "core",
+      question:
+        "Nitrogen monoxide and oxygen react in the gas phase: 2NO(g) + O₂(g) → 2NO₂(g).\nExplain, using collision theory, why increasing the pressure of the gas mixture increases the rate of this reaction. (3)",
+      marks: 3,
+      hints: [
+        "Pressure for gases acts like concentration for solutions.",
+        "What happens to the number of particles in each unit of volume?",
+        "Remember the time element — 'per second'.",
+      ],
+      modelAnswer:
+        "At higher pressure the same number of gas particles are in a smaller volume, so there are more particles per unit volume (they are closer together). The particles therefore collide more frequently, giving more successful collisions per unit time, so the rate increases.",
+      markScheme: [
+        {
+          point: "More particles per unit volume / particles closer together",
+          keywords: ["per unit volume", "same volume", "smaller volume", "closer together", "more crowded", "more particles in", "particles+closer", "more concentrated"],
+          feedback: "Higher pressure means more gas particles in the same volume (they are closer together) — just like a higher concentration.",
+        },
+        {
+          point: "More frequent collisions / more collisions per second",
+          keywords: ["more frequent", "frequency", "per second", "per unit time", "collide more often", "more often"],
+          feedback: "Say the particles collide MORE FREQUENTLY (more collisions per second) — 'more collisions' alone does not score.",
+        },
+        {
+          point: "More successful collisions per unit time (so faster rate)",
+          keywords: ["successful collision", "effective collision", "successful+per second", "successful+unit time", "collisions+enough energy"],
+          feedback: "Finish the chain: more successful collisions per unit time, so the reaction is faster.",
+        },
+      ],
+      commonError: "Saying the particles have more energy or move faster — that is temperature. Pressure only changes how close together the particles are.",
+      strategy: "Think about particles",
+    },
   ],
 };

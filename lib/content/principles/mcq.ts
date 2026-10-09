@@ -608,5 +608,53 @@ export const mcq: QuestionSet<MCQ> = {
       ],
       strategy: "Apply it to a new situation",
     },
+    {
+      id: "pc-m25",
+      topic: "principles",
+      section: "principles-states",
+      difficulty: "core",
+      question: "A crystal of purple potassium manganate(VII) is dissolved in 10 cm³ of water. 1 cm³ of this solution is diluted with 9 cm³ of water, and this is repeated four more times. The final solution is still pale pink. What does this show?",
+      options: [
+        "The particles grow larger as the solution is diluted",
+        "The crystal contained a very large number of very small particles",
+        "Potassium manganate(VII) reacts with water to make more purple particles",
+        "The particles stop moving once they are spread out",
+      ],
+      answerIndex: 1,
+      optionFeedback: [
+        "Particles do not change size on dilution — they just become more spread out among the water particles.",
+        "After many tenfold dilutions there are still enough particles in every drop to colour it, so one crystal must contain an enormous number of tiny particles.",
+        "No new purple particles are made — the same particles are simply shared out through more and more water.",
+        "Particles in a liquid never stop moving; their random movement is what spreads them evenly through the water.",
+      ],
+      explanation:
+        "Each dilution spreads the same number of purple particles through ten times as much water, so the colour gets paler. Because colour can still be seen after five tenfold dilutions (a 100 000-fold dilution), the original crystal must have contained a huge number of extremely small particles. This is evidence for the particle model of matter.",
+      hints: ["What happens to the number of purple particles in each cm³ every time you dilute?", "Why can you still see colour after diluting it so many times?"],
+      strategy: "Think about particles",
+    },
+    {
+      id: "pc-m26",
+      topic: "principles",
+      section: "principles-periodic",
+      difficulty: "core",
+      question: "Lithium and potassium have very similar chemical reactions. Which statement explains why?",
+      options: [
+        "Their atoms have the same number of electrons in the outer shell",
+        "Their atoms have the same number of occupied electron shells",
+        "Their atoms have the same number of protons and neutrons",
+        "They are both soft metals that can be cut with a knife",
+      ],
+      answerIndex: 0,
+      optionFeedback: [
+        "Both are in group 1 with ONE outer electron (Li 2.1, K 2.8.8.1). Chemical reactions involve the outer electrons, so they react in the same way.",
+        "That would put them in the same PERIOD. Li has 2 shells and K has 4 — elements across a period have very different properties.",
+        "Atoms with the same number of protons would be the same element. Li has 3 protons and K has 19.",
+        "This is a similar physical property, but it does not explain why their chemical reactions are similar.",
+      ],
+      explanation:
+        "Elements in the same group have the same number of electrons in their outer shell (equal to the group number for groups 1–7). Chemical reactions involve losing, gaining or sharing outer electrons, so elements in the same group have similar chemical properties — e.g. all group 1 metals react with water to give a metal hydroxide and hydrogen.",
+      hints: ["Write the electronic configurations of Li (atomic number 3) and K (atomic number 19).", "Which electrons take part in chemical reactions?"],
+      strategy: "Think about electrons",
+    },
   ],
 };

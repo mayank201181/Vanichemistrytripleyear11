@@ -93,13 +93,13 @@ export const DIFFICULTY_META = {
 
 /** Question counts per topic (MCQ set size, written set size). */
 export const SET_SIZES: Record<TopicId, { mcq: number; qa: number }> = {
-  principles: { mcq: 24, qa: 10 },
-  bonding: { mcq: 20, qa: 8 },
-  calc: { mcq: 24, qa: 10 },
+  principles: { mcq: 26, qa: 10 },
+  bonding: { mcq: 24, qa: 9 },
+  calc: { mcq: 30, qa: 12 },
   electro: { mcq: 16, qa: 6 },
-  inorganic: { mcq: 24, qa: 10 },
-  acids: { mcq: 24, qa: 10 },
-  physical: { mcq: 24, qa: 10 },
-  organic: { mcq: 24, qa: 10 },
+  inorganic: { mcq: 27, qa: 11 },
+  acids: { mcq: 27, qa: 11 },
+  physical: { mcq: 27, qa: 12 },
+  organic: { mcq: 27, qa: 10 },
   practical: { mcq: 16, qa: 8 },
 };

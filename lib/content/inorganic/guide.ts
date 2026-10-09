@@ -29,6 +29,10 @@ export const guide: GuideSection[] = [
 
 If universal indicator is added to the water, it turns **purple/blue** because the hydroxide solution is alkaline (pH about 13–14). Each metal atom loses one electron to form a 1+ ion, e.g. Na → Na⁺ + e⁻, so the metals are **oxidised**.
 
+**Evidence that they are a family.** The **similarities** in these reactions — every one floats, fizzes, gives off **hydrogen**, forms a soluble **metal hydroxide** with formula MOH and makes the water **alkaline** — show that lithium, sodium and potassium are a **family** of elements. They behave alike because each atom has **one electron in its outer shell**. The **differences** (how vigorous the reaction is) follow a smooth trend down the group.
+
+**Trend with air.** All three tarnish in air to form the oxide (e.g. 4Na(s) + O₂(g) → 2Na₂O(s)), and the freshly cut surface tarnishes **faster** going down the group — lithium dulls slowly, potassium almost instantly.
+
 **Explaining the trend in reactivity** (a classic 3–4 mark question). Reactivity **increases down the group** because:
 
 - the atoms get **bigger** — the outer electron is in a shell **further from the nucleus**;
@@ -69,6 +73,7 @@ In an exam you may be given data for an unfamiliar Group 1 element and asked to 
       "Alkali metal + water → metal hydroxide + hydrogen, e.g. 2Na + 2H₂O → 2NaOH + H₂.",
       "Observations: floats, fizzes, moves on the surface, disappears; Na melts into a ball; K's hydrogen burns with a lilac flame.",
       "The solution formed is alkaline (universal indicator turns blue/purple).",
+      "The similar reactions (all give hydrogen and an alkaline MOH solution) show Li, Na and K are a family — each has one outer electron. They tarnish in air faster down the group.",
       "Reactivity increases down the group: outer electron further from the nucleus, more shielding, weaker attraction, lost more easily.",
       "Rb and Cs react explosively; products are RbOH/CsOH and hydrogen.",
       "Stored under oil to prevent reaction with oxygen and water vapour in air.",

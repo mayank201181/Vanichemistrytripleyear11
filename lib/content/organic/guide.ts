@@ -10,7 +10,7 @@ export const guide: GuideSection[] = [
       problem:
         "Two bottles are both labelled C₄H₁₀. One gas boils at −0.5 °C, the other at −12 °C. Same atoms, same numbers of each atom — how can they be different substances?",
       idea:
-        "The atoms are joined up in a different order. Butane is a straight chain; methylpropane is branched. Same **molecular formula**, different **structural formula** — they are **structural isomers**. In organic chemistry the arrangement of atoms matters as much as which atoms are present.",
+        "The atoms are joined up in a different order. Butane is a straight chain; its isomer (methylpropane — a stretch name) is branched. Same **molecular formula**, different **structural formula** — they are **structural isomers**. In organic chemistry the arrangement of atoms matters as much as which atoms are present.",
     },
     body: `Organic chemistry is the chemistry of carbon compounds. A **hydrocarbon** is a compound that contains **hydrogen and carbon only** — the word "only" is the mark.
 
@@ -39,7 +39,7 @@ A **functional group** is the atom or group of atoms that determines how the mol
 
 **Naming (C1–C5).** The stem gives the number of carbons: **meth** 1, **eth** 2, **prop** 3, **but** 4, **pent** 5. The ending gives the series: **-ane**, **-ene**, **-anol**, **-anoic acid**. For alkenes with 4+ carbons and alcohols with 3+ carbons a number shows where the group is: **but-1-ene** CH₂=CHCH₂CH₃ has the C=C starting at carbon 1; **but-2-ene** CH₃CH=CHCH₃ has it at carbon 2. **Propan-1-ol** CH₃CH₂CH₂OH has –OH on an end carbon; **propan-2-ol** CH₃CH(OH)CH₃ has it on the middle carbon. Number from the end that gives the **lowest** number (so never "but-3-ene"). In a carboxylic acid the C of –COOH counts as carbon 1: propanoic acid is CH₃CH₂COOH. **Esters** are named alcohol-part first then acid-part: **ethyl ethanoate** CH₃COOC₂H₅ (from ethanol + ethanoic acid), **methyl propanoate** CH₃CH₂COOCH₃ (from methanol + propanoic acid).
 
-**Structural isomers** are compounds with the **same molecular formula but different structural formulae**. C₄H₁₀ has two (butane, methylpropane); C₅H₁₂ has three (pentane, 2-methylbutane, 2,2-dimethylpropane); C₄H₈ alkenes include but-1-ene, but-2-ene and methylpropene. Check your drawings: a molecule that is just bent or flipped is the **same** compound, not an isomer.
+**Structural isomers** are compounds with the **same molecular formula but different structural formulae**. You must be able to **name unbranched-chain isomers** — the ones where the carbon chain is straight but a group sits in a different position: **but-1-ene** and **but-2-ene** (both C₄H₈), **pent-1-ene** and **pent-2-ene** (both C₅H₁₀). Branched isomers also exist — C₄H₁₀ has two isomers and C₅H₁₂ has three — and you should be able to *draw* them; *naming* them (methylpropane; 2-methylbutane, 2,2-dimethylpropane; methylpropene) is **(stretch)** beyond what you have been taught. Check your drawings: a molecule that is just bent or flipped is the **same** compound, not an isomer.
 
 **Reaction types** you must recognise:
 - **Substitution** — one atom is swapped for another (alkane + bromine in UV light).
@@ -94,7 +94,7 @@ A **functional group** is the atom or group of atoms that determines how the mol
 3. Vapours rise. Each hydrocarbon **condenses** when it reaches a level where the temperature is below its boiling point, and is collected on a tray there.
 4. Short molecules (low boiling points) rise to the top; long molecules condense low down; **bitumen** never vaporises and drains from the bottom.
 
-A **fraction** is a mixture of hydrocarbons with similar chain lengths and **similar boiling points**.
+A **fraction** is a mixture of hydrocarbons with similar chain lengths and **similar boiling points**. Most fractions are used as **fuels** — a fuel is a substance that **releases heat energy when it is burned**.
 
 | Fraction (top → bottom) | Use |
 |---|---|

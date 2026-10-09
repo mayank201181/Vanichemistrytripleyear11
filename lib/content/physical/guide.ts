@@ -119,12 +119,22 @@ If more energy is released making the new bonds than is used breaking the old on
 | Add a catalyst | steeper | same |
 
 **Collision theory.** Particles must **collide** with **energy at least equal to the activation energy** for a collision to be **successful**. The rate depends on the number of **successful collisions per unit time**.
-- **Concentration** (or **pressure** for gases): more particles in the same volume → **more frequent collisions** → more successful collisions per second.
+- **Concentration**: more particles in the same volume → **more frequent collisions** → more successful collisions per second.
+- **Pressure** (reactions between **gases**): increasing the pressure squeezes the same number of gas particles into a **smaller volume**, so there are **more particles per unit volume** — it has exactly the same effect as increasing concentration: more frequent collisions → more successful collisions per unit time → faster rate.
 - **Surface area**: smaller pieces expose more particles on the surface → more frequent collisions.
 - **Temperature**: particles have **more kinetic energy** and **move faster**, so they collide **more frequently** AND a **greater proportion of collisions have energy ≥ activation energy** → more successful collisions per unit time. (The second effect is the bigger one.)
 - **Catalyst**: speeds up a reaction without being used up by providing an **alternative pathway with a lower activation energy**, so a greater proportion of collisions are successful.
 
-**Catalyst core practical.** 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Add a small mass of **manganese(IV) oxide**, MnO₂, to hydrogen peroxide and collect the oxygen in a **gas syringe**, timing it. Compare with no catalyst (or other metal oxides). Filter, dry and reweigh the MnO₂ afterwards: the mass is unchanged, showing it is not used up. On a **reaction profile**, the catalysed hump is **lower** but the reactant and product levels — and so ΔH — stay the **same**.`,
+**Catalyst core practical.** 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Add a small mass of **manganese(IV) oxide**, MnO₂, to hydrogen peroxide and collect the oxygen in a **gas syringe**, timing it. Compare with no catalyst (or other metal oxides). Filter, dry and reweigh the MnO₂ afterwards: the mass is unchanged, showing it is not used up. Different solids (e.g. MnO₂, copper(II) oxide, zinc oxide) can be compared by keeping the **same mass** of solid, the same volume and concentration of hydrogen peroxide and the same temperature, and timing how long it takes to collect a fixed volume of oxygen.
+
+**Reaction profile diagrams (Triple — 3.14C).** A reaction profile plots **energy** (y-axis) against **progress of reaction** (x-axis).
+- Draw the **reactants** level on the left and the **products** level on the right, joined by a **hump**.
+- **Exothermic**: products **lower** than reactants; **endothermic**: products **higher**.
+- **ΔH** = the vertical arrow from the **reactants level to the products level** (pointing **down** for exothermic, ΔH negative; **up** for endothermic, ΔH positive).
+- **Activation energy, Ea** = the vertical arrow from the **reactants level up to the top of the hump** — the minimum energy colliding particles need to react.
+- With a **catalyst**: draw a **lower hump** between the same two levels. Ea is smaller; ΔH is **unchanged** because the reactants and products are the same.
+
+Common slip: drawing Ea from the products, or from zero on the axis — it always starts at the **reactants** level.`,
     diagram: `<svg viewBox="0 0 420 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Graph of mass lost against time for original acid, half-concentration acid and higher temperature">
 <line x1="60" y1="230" x2="400" y2="230" stroke="#334155" stroke-width="2"/>
 <line x1="60" y1="230" x2="60" y2="20" stroke="#334155" stroke-width="2"/>
@@ -151,6 +161,8 @@ If more energy is released making the new bonds than is used breaking the old on
       "Half the concentration (same volume): shallower curve AND half the total mass of CO₂.",
       "Temperature: particles move faster → more frequent collisions AND a greater proportion with energy ≥ Ea → more successful collisions per unit time.",
       "A catalyst provides an alternative pathway with a lower activation energy and is not used up (e.g. MnO₂ with H₂O₂).",
+      "Higher gas pressure = more particles per unit volume → more frequent collisions → faster (just like higher concentration).",
+      "Reaction profile (Triple): Ea is measured from the reactants level up to the peak; ΔH from reactants to products. A catalyst lowers the peak but does not change ΔH.",
     ],
     whyItWorks:
       "Rate depends on how many successful collisions happen each second. Anything that makes particles meet more often (concentration, surface area, pressure) or makes more of their collisions energetic enough (temperature, catalyst) increases the rate.",

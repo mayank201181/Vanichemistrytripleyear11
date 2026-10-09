@@ -140,4 +140,10 @@ export const glossary: GlossaryCard[] = [
     definition: "An insoluble solid formed when two solutions are mixed; it has the state symbol (s).",
     example: "Ag⁺(aq) + Cl⁻(aq) → AgCl(s), a white precipitate",
   },
+  {
+    topic: "calc",
+    term: "Avogadro's constant",
+    definition: "The number of particles (atoms, molecules or ions) in one mole of a substance: 6.02 × 10²³ per mol.",
+    example: "Number of particles = moles × 6.02 × 10²³; 0.5 mol H₂O = 3.01 × 10²³ molecules but 9.03 × 10²³ atoms.",
+  },
 ];

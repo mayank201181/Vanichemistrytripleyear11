@@ -424,5 +424,99 @@ export const qa: QuestionSet<QA> = {
         "Using a 1 : 1 ratio (answer 0.0372) or halving instead of doubling — sulfuric acid releases two H⁺ per formula, so it neutralises twice as much NaOH.",
       strategy: "Use the mole ratio",
     },
+    {
+      id: "ca-w11",
+      topic: "calc",
+      section: "calc-moles",
+      difficulty: "core",
+      question:
+        "Iron ore contains iron(III) oxide, Fe₂O₃.\n(a) Calculate the percentage by mass of iron in iron(III) oxide. (2)\n(b) Calculate the number of iron atoms in 11.2 g of iron. (2)\n(Ar: O = 16, Fe = 56; Avogadro's constant = 6.02 × 10²³ per mol)",
+      marks: 4,
+      hints: [
+        "Work out the Mr of Fe₂O₃, then the total mass of the iron atoms in it.",
+        "For (b), change grams into moles first.",
+        "Moles × Avogadro's constant gives the number of atoms.",
+      ],
+      modelAnswer:
+        "(a) Mr of Fe₂O₃ = (2 × 56) + (3 × 16) = 160. Mass of iron = 2 × 56 = 112.\n% Fe = 112 ÷ 160 × 100 = 70.0%\n(b) Moles of Fe = 11.2 ÷ 56 = 0.200 mol\nNumber of atoms = 0.200 × 6.02 × 10²³ = 1.204 × 10²³ (1.20 × 10²³) atoms",
+      markScheme: [
+        {
+          point: "Mr of Fe₂O₃ = 160 and/or mass of iron = 112",
+          keywords: ["160", "112"],
+          feedback: "Mr of Fe₂O₃ = 2 × 56 + 3 × 16 = 160, of which 2 × 56 = 112 is iron. Remember there are TWO iron atoms.",
+        },
+        {
+          point: "% iron = 70(.0)%",
+          keywords: ["70", "70.0"],
+          feedback: "% by mass = mass of iron ÷ Mr × 100 = 112 ÷ 160 × 100 = 70.0%.",
+        },
+        {
+          point: "Moles of Fe = 11.2 ÷ 56 = 0.200",
+          keywords: ["0.2", "0.200"],
+          feedback: "Convert the mass to moles first: 11.2 ÷ 56 = 0.200 mol of iron atoms.",
+        },
+        {
+          point: "Number of atoms = 0.200 × 6.02 × 10²³ = 1.20 × 10²³",
+          keywords: ["1.204", "1.20", "1.2"],
+          feedback: "Number of particles = moles × Avogadro's constant = 0.200 × 6.02 × 10²³ = 1.20 × 10²³ atoms.",
+        },
+      ],
+      commonError: "Using only one iron atom in (a) (56 ÷ 160 = 35%), or in (b) dividing by Avogadro's constant instead of multiplying.",
+      strategy: "Follow the method step by step",
+    },
+    {
+      id: "ca-w12",
+      topic: "calc",
+      section: "calc-moles",
+      difficulty: "challenge",
+      question:
+        "A student finds the empirical formula of magnesium oxide by burning magnesium ribbon in a crucible.\n(a) Describe how she should carry out the experiment to get reliable results. (3)\n(b) Her results are in the table. Use them to find the empirical formula of magnesium oxide. (2)\n(Ar: O = 16, Mg = 24)",
+      table: {
+        caption: "Results",
+        headers: ["Measurement", "Mass / g"],
+        rows: [
+          ["empty crucible + lid", "25.12"],
+          ["crucible + lid + magnesium", "25.60"],
+          ["crucible + lid + magnesium oxide (at the end)", "25.92"],
+        ],
+      },
+      marks: 5,
+      hints: [
+        "Magnesium needs oxygen to react, but magnesium oxide is a fine white smoke that can escape.",
+        "How does she know when all the magnesium has reacted?",
+        "Find the mass of magnesium and the mass of oxygen, then convert each to moles.",
+      ],
+      modelAnswer:
+        "(a) Weigh the empty crucible and lid, then weigh again with the coiled magnesium ribbon. Heat strongly, lifting the lid occasionally to let air (oxygen) in while keeping the white oxide smoke inside. When it stops glowing, let it cool and reweigh; reheat and reweigh until the mass is constant, so all the magnesium has reacted.\n(b) Mass of Mg = 25.60 − 25.12 = 0.48 g → 0.48 ÷ 24 = 0.020 mol. Mass of O = 25.92 − 25.60 = 0.32 g → 0.32 ÷ 16 = 0.020 mol. Ratio Mg : O = 1 : 1, so the empirical formula is MgO.",
+      markScheme: [
+        {
+          point: "Weigh the crucible (and lid) empty and with the magnesium",
+          keywords: ["weigh", "balance", "record+mass+before", "measure+mass+before"],
+          feedback: "Start by weighing the empty crucible and lid, then with the magnesium in it, so you know the mass of magnesium used.",
+        },
+        {
+          point: "Lift the lid occasionally to let air/oxygen in (but keep the oxide smoke in)",
+          keywords: ["lift+lid", "lifting+lid", "raise+lid", "open+lid", "lid+let air", "lid+oxygen in", "lid+air in"],
+          feedback: "The lid keeps the magnesium oxide smoke in; lifting it briefly from time to time lets in the oxygen the magnesium needs.",
+        },
+        {
+          point: "Heat (and reweigh) until the mass is constant",
+          keywords: ["constant mass", "mass is constant", "mass+constant", "until+no change", "no further change", "reheat", "heat again+reweigh", "mass+stops changing", "doesnt change", "does not change", "mass+no longer change", "until+same mass", "until+mass+same"],
+          feedback: "Heat, cool and reweigh repeatedly until two readings are the same — constant mass shows all the magnesium has reacted.",
+        },
+        {
+          point: "Moles: Mg = 0.48 ÷ 24 = 0.020 and O = 0.32 ÷ 16 = 0.020",
+          keywords: ["0.32+0.02", "0.32+0.020"],
+          feedback: "Mass Mg = 25.60 − 25.12 = 0.48 g; mass O = 25.92 − 25.60 = 0.32 g. Divide each by its Ar: both are 0.020 mol.",
+        },
+        {
+          point: "Ratio 1 : 1, so empirical formula MgO",
+          keywords: ["mgo", "1:1", "1 : 1"],
+          feedback: "Equal moles of Mg and O atoms → the simplest ratio is 1 : 1 → MgO.",
+        },
+      ],
+      commonError: "Using the total mass of oxide (0.80 g) as the mass of oxygen, or comparing the masses 0.48 : 0.32 directly instead of converting to moles.",
+      strategy: "Follow the method step by step",
+    },
   ],
 };

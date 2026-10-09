@@ -147,7 +147,9 @@ Non-metal ions take the ending **-ide** (oxide, chloride, nitride). Transition m
 
 **Deducing formulae.** A compound has no overall charge, so the total positive charge must cancel the total negative charge. Calcium (Ca²⁺) and chloride (Cl⁻) need two chlorides: **CaCl₂**. Aluminium (Al³⁺) and oxide (O²⁻): lowest common multiple 6, so **Al₂O₃**. When you need more than one compound ion, put it in **brackets**: Ca(OH)₂, Mg(NO₃)₂, (NH₄)₂SO₄, Al₂(SO₄)₃.
 
-**Dot-and-cross diagrams.** Show only the outer shells (unless asked for all). Use crosses for electrons that came from the metal and dots for the non-metal's own electrons, put each ion in **square brackets** and write the **charge at the top right**. The metal ion is drawn with an empty or full (2,8) outer shell; the non-metal ion has 8 outer electrons, one or more of them a cross. For magnesium oxide: Mg (2,8,2) → Mg²⁺ (2,8); O (2,6) → O²⁻ (2,8) with two crosses.
+**Dot-and-cross diagrams.** Show only the outer shells (unless asked for all). Use crosses for electrons that came from the metal and dots for the non-metal's own electrons, put each ion in **square brackets** and write the **charge at the top right**. The metal ion is drawn with an empty or full (2,8) outer shell; the non-metal ion has 8 outer electrons, one or more of them a cross. For magnesium oxide: Mg (2,8,2) → Mg²⁺ (2,8); O (2,6) → O²⁻ (2,8) with two crosses. You will only be asked to draw ionic dot-and-cross diagrams for combinations of elements from **groups 1, 2, 3, 5, 6 and 7** (e.g. NaCl, MgO, CaCl₂, Li₂O, AlF₃, Mg₃N₂). With a 2 : 1 compound draw **both** of the repeated ions, e.g. [Cl]⁻ [Ca]²⁺ [Cl]⁻.
+
+**Bond type from a formula.** Metal + non-metal → **ionic** (NaCl, MgO). Non-metals only → **covalent** (CO₂, NH₃). A metal on its own → **metallic** (Cu).
 
 **Giant ionic lattice.** In the solid the ions are arranged in a regular, repeating three-dimensional pattern of alternating positive and negative ions. In sodium chloride each Na⁺ is surrounded by six Cl⁻ ions and vice versa. The **ionic bond** is the **strong electrostatic attraction between oppositely charged ions**, and it acts **in all directions** throughout the lattice.
 
@@ -213,8 +215,16 @@ Check: the total positive charge always equals the total negative charge.`,
 | N₂ | N≡N **triple** bond (3 shared pairs) | 1 on each N |
 | CO₂ | two C=O double bonds | 2 on each O |
 | C₂H₄ (ethene) | C=C double bond + 4 C–H | none |
+| C₂H₆ (ethane) | C–C single bond + 6 C–H (7 shared pairs) | none |
+| CH₃Cl (chloromethane) | 3 C–H + 1 C–Cl | 3 on Cl |
 
-**Simple molecular substances** (H₂O, CO₂, CH₄, I₂, HCl…) are made of small molecules. **Within** each molecule the covalent bonds are strong, but **between** molecules there are only **weak intermolecular forces**. Melting or boiling only overcomes these weak intermolecular forces — **the covalent bonds do not break** — so little energy is needed and **melting and boiling points are low** (most are gases or liquids at room temperature). As **relative molecular mass (Mr) increases**, the intermolecular forces get **stronger**, so boiling point rises: F₂ and Cl₂ are gases, Br₂ a liquid, I₂ a solid; methane boils at −162 °C but octane at 126 °C.
+You need to be able to draw organic molecules with **up to two carbon atoms** — methane, ethane, ethene, and ones containing a halogen atom.
+
+A **molecule** is a particle made of **two or more atoms covalently bonded together** (the atoms can be the same element, as in O₂ and Cl₂, or different elements, as in H₂O). A noble gas atom on its own is not a molecule; nor is an ion in a lattice.
+
+**Simple molecular substances** (H₂O, CO₂, CH₄, I₂, HCl…) are made of small molecules. When you sketch a few molecules, draw the **covalent bonds** inside each molecule as **solid lines** and the **intermolecular forces** between neighbouring molecules as **dashed lines** — two completely different things. A **high** melting point means **strong** forces must be overcome, a low one means weak forces. **Within** each molecule the covalent bonds are strong, but **between** molecules there are only **weak intermolecular forces**. Melting or boiling only overcomes these weak intermolecular forces — **the covalent bonds do not break** — so little energy is needed and **melting and boiling points are low** (most are gases or liquids at room temperature). As **relative molecular mass (Mr) increases**, the intermolecular forces get **stronger**, so boiling point rises: F₂ and Cl₂ are gases, Br₂ a liquid, I₂ a solid; methane boils at −162 °C but octane at 126 °C.
+
+**Allotropes** are different structural forms of the **same element** in the same physical state. Diamond, graphite and C₆₀ fullerene are three **allotropes of carbon** — all pure carbon, but with very different properties because the atoms are bonded together differently.
 
 **Giant covalent structures** contain a huge network of atoms all joined by strong covalent bonds. To melt them you must break very many strong covalent bonds, so melting points are **very high**.
 - **Diamond** — each carbon is covalently bonded to **four** others in a rigid 3D tetrahedral network. Very hard (cutting tools, drill tips); very high melting point; **does not conduct** because all four outer electrons are used in bonding, so there are no delocalised electrons.
@@ -228,6 +238,8 @@ Check: the total positive charge always equals the total negative charge.`,
     keyPoints: [
       "A covalent bond is a shared pair of electrons; the bond is the electrostatic attraction between the shared pair and the nuclei of the bonded atoms.",
       "Double bond = 2 shared pairs (O₂, CO₂, C₂H₄); triple bond = 3 shared pairs (N₂).",
+      "A molecule is two or more atoms covalently bonded together. Covalent bonds (within molecules) are strong; intermolecular forces (between molecules) are weak.",
+      "Allotropes are different structural forms of the same element, e.g. diamond, graphite and C₆₀ are allotropes of carbon.",
       "Simple molecular substances have low melting and boiling points because only weak intermolecular forces are overcome — the covalent bonds are not broken.",
       "Boiling point increases with Mr because larger molecules have stronger intermolecular forces.",
       "Diamond: each C bonded to 4 others — very hard, very high melting point, does not conduct (no delocalised electrons).",
@@ -276,7 +288,7 @@ Notice the structure of the answer: name the structure → say which forces are 
 | **Malleable** (hammered into shape) and **ductile** (drawn into wires) | The **layers of positive ions can slide over each other**; the delocalised electrons move with them, so the **metallic bonding is maintained** and the metal does not break. |
 | **High melting point** (most metals) | Strong electrostatic attraction between the positive ions and delocalised electrons needs **a lot of energy** to overcome. |
 
-**Alloys** are mixtures of a metal with other elements (usually other metals, or carbon in steel). The added atoms are a **different size**, so they **disrupt (distort) the regular layers**; the layers **cannot slide over each other as easily**, so an alloy is **harder and stronger** than the pure metal. Steel (iron + carbon) is harder than pure iron; brass (copper + zinc) is harder than copper.
+**Alloys (stretch — covered with metals later in the course)** are mixtures of a metal with other elements (usually other metals, or carbon in steel). The added atoms are a **different size**, so they **disrupt (distort) the regular layers**; the layers **cannot slide over each other as easily**, so an alloy is **harder and stronger** than the pure metal. Steel (iron + carbon) is harder than pure iron; brass (copper + zinc) is harder than copper.
 
 **How to answer "Explain three properties that make copper suitable for electrical wiring" (5 marks)**
 
@@ -302,7 +314,7 @@ Do not confuse metals with ionic compounds: in a metal the **electrons** move; i
       "Electrical conductivity: delocalised electrons are free to move through the structure and carry charge.",
       "Malleable and ductile: layers of positive ions can slide over each other while the metallic bonding is maintained.",
       "High melting point: a lot of energy is needed to overcome the strong attraction between ions and delocalised electrons.",
-      "Alloys are harder: different-sized atoms disrupt the regular layers so they cannot slide over each other as easily.",
+      "(Stretch) Alloys are harder: different-sized atoms disrupt the regular layers so they cannot slide over each other as easily.",
     ],
     whyItWorks:
       "Because the bonding electrons are shared by the whole lattice rather than fixed between two particular atoms, the bond is non-directional. Ions can shift to new positions and still be surrounded by electrons — so the metal bends instead of snapping — and the same mobile electrons drift when a voltage is applied, giving a current.",

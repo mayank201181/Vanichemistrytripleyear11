@@ -425,5 +425,50 @@ export const qa: QuestionSet<QA> = {
         "Calling cryolite a catalyst, or saying the anodes \"dissolve\" or are coated in aluminium. Aluminium forms at the cathode; it is oxygen at the anode that burns the carbon away.",
       strategy: "Think about electrons",
     },
+    {
+      id: "in-w11",
+      topic: "inorganic",
+      section: "inorganic-group1",
+      difficulty: "core",
+      question:
+        "A teacher adds small pieces of lithium, sodium and potassium in turn to water containing universal indicator.\n(a) Give TWO observations that are the same for all three metals, and explain how they show that the metals belong to the same family. (3)\n(b) Write a balanced equation, with state symbols, for the reaction of lithium with water. (2)",
+      marks: 5,
+      hints: [
+        "What do you see coming off every metal, and what happens to the indicator colour each time?",
+        "Why do elements in the same group react in the same way?",
+        "The products are a metal hydroxide and hydrogen; lithium forms Li⁺ ions.",
+      ],
+      modelAnswer:
+        "(a) Each metal fizzes / gives off bubbles of gas (hydrogen), and each turns the universal indicator blue/purple because an alkaline hydroxide forms. (Each also floats and moves around.) The same reactions and products show they are a family — they all have one electron in their outer shell, so they react in the same way.\n(b) 2Li(s) + 2H₂O(l) → 2LiOH(aq) + H₂(g)",
+      markScheme: [
+        {
+          point: "Fizzing / bubbles / effervescence (of hydrogen) with all three",
+          keywords: ["fizz", "bubble", "effervesc", "gas given off", "hydrogen given off", "gas produced", "floats"],
+          feedback: "Every alkali metal gives off hydrogen — you see fizzing/bubbles (they also all float).",
+        },
+        {
+          point: "Indicator turns blue/purple — alkaline solution formed",
+          keywords: ["blue", "purple", "alkaline", "alkali", "hydroxide"],
+          feedback: "All three make a metal hydroxide that dissolves to give an alkaline solution, so universal indicator turns blue/purple.",
+        },
+        {
+          point: "Same reaction/products because they all have one outer electron (same group)",
+          keywords: ["one outer electron", "1 outer electron", "one electron in", "1 electron in", "same number of outer", "same number of electrons in", "single outer electron", "one electron in the outer"],
+          feedback: "They are a family because each atom has ONE electron in its outer shell, so they all react in the same way (lose that one electron).",
+        },
+        {
+          point: "Correct formulae: Li + H₂O → LiOH + H₂",
+          keywords: ["lioh+h2", "2lioh+h2", "lithium hydroxide+hydrogen"],
+          feedback: "Lithium + water → lithium hydroxide (LiOH) + hydrogen (H₂).",
+        },
+        {
+          point: "Balanced with state symbols: 2Li(s) + 2H₂O(l) → 2LiOH(aq) + H₂(g)",
+          keywords: ["2li s+2h2o l+2lioh aq+h2 g", "2li s+2lioh aq+h2 g"],
+          feedback: "Balance it: 2Li(s) + 2H₂O(l) → 2LiOH(aq) + H₂(g) — water is (l), the hydroxide dissolves (aq), hydrogen is (g).",
+        },
+      ],
+      commonError: "Describing differences (potassium is more violent, sodium melts) when the question asks for similarities, or writing Li₂O/LiH as the product.",
+      strategy: "Compare and contrast",
+    },
   ],
 };

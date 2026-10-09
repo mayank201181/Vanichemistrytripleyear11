@@ -82,7 +82,7 @@ Then scale to the actual mass of water used.
       idea:
         "The salt is dissolved, so filtration cannot remove it. Simple distillation boils off the water, condenses the vapour and leaves the salt behind. A physical test proves purity: pure water boils at exactly 100 °C and freezes at exactly 0 °C (at 1 atm).",
     },
-    body: `**Definitions.** An **element** contains only one type of atom. A **compound** contains two or more elements **chemically combined** in fixed proportions (e.g. H₂O). A **mixture** contains two or more substances that are **not chemically combined**, so they can be separated by physical methods.
+    body: `**Definitions.** An **atom** is the smallest particle of an element that can take part in a chemical reaction. A **molecule** is two or more atoms **covalently bonded** together (O₂, H₂O, CO₂). An **element** contains only one type of atom. A **compound** contains two or more elements **chemically combined** in fixed proportions (e.g. H₂O). A **mixture** contains two or more substances that are **not chemically combined**, so they can be separated by physical methods.
 
 **Pure or impure?** A **pure substance** (a single element or compound) melts and boils at a **sharp, fixed temperature**. A **mixture** melts or boils **over a range of temperatures**. So a sample of aspirin that melts between 128 °C and 133 °C is impure.
 
@@ -120,6 +120,7 @@ Then scale to the actual mass of water used.
     diagramCaption:
       "Simple distillation. Cooling water enters the condenser at the lower end and leaves at the upper end so the jacket stays full; the thermometer bulb sits at the side arm; anti-bumping granules (grey dots) give smooth boiling.",
     keyPoints: [
+      "Atom: smallest particle of an element that can take part in a chemical reaction. Molecule: two or more atoms covalently bonded together.",
       "Pure substances melt and boil at a sharp, fixed temperature; mixtures melt and boil over a range.",
       "Continuous flow of cold water keeps the condenser cold so that the vapour condenses.",
       "Water enters the condenser at the bottom so the condenser fills completely with water, giving more efficient cooling.",

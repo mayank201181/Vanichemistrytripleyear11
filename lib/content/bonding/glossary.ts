@@ -23,4 +23,6 @@ export const glossary: GlossaryCard[] = [
   { topic: "bonding", term: "Malleable", definition: "Can be hammered or pressed into shape without breaking, because layers of positive ions can slide over each other.", example: "Aluminium foil" },
   { topic: "bonding", term: "Ductile", definition: "Can be drawn out into wires, because layers of positive ions can slide over each other while the metallic bonding is maintained.", example: "Copper wiring" },
   { topic: "bonding", term: "Alloy", definition: "A mixture of a metal with one or more other elements. It is harder than the pure metal because different-sized atoms disrupt the layers, so they cannot slide over each other as easily.", example: "Steel (iron + carbon), brass (copper + zinc)" },
+  { topic: "bonding", term: "Molecule", definition: "Two or more atoms covalently bonded together.", example: "O₂, Cl₂ (elements); H₂O, CO₂ (compounds)" },
+  { topic: "bonding", term: "Allotropes", definition: "Different structural forms of the same element in the same physical state.", example: "Diamond, graphite and C₆₀ fullerene are allotropes of carbon" },
 ];

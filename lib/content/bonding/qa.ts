@@ -266,7 +266,7 @@ const questions: QA[] = [
     section: "bonding-metallic",
     difficulty: "challenge",
     question:
-      "Pure iron is soft and bends easily. Steel, an alloy of iron with a small amount of carbon, is much harder. Explain, in terms of the particles present, why pure iron is soft and why steel is harder.",
+      "(Stretch) Pure iron is soft and bends easily. Steel, an alloy of iron with a small amount of carbon, is much harder. Explain, in terms of the particles present, why pure iron is soft and why steel is harder.",
     marks: 5,
     hints: [
       "Describe how the particles are arranged in a pure metal. Are they all the same size?",
@@ -346,6 +346,46 @@ const questions: QA[] = [
     commonError:
       "Saying gold conducts because its 'ions move' or 'it has free ions'. In metals the delocalised electrons carry the charge; the ions stay in the lattice.",
     strategy: "Apply it to a new situation",
+  },
+  {
+    id: "bd-w09",
+    topic: "bonding",
+    section: "bonding-covalent",
+    difficulty: "challenge",
+    question:
+      "Diamond and C₆₀ fullerene are both forms of pure carbon.\n(a) State the term used for different structural forms of the same element. (1)\n(b) Diamond melts above 3500 °C, but C₆₀ turns to a gas at about 600 °C and is soft. Explain this difference in terms of structure and bonding. (3)",
+    marks: 4,
+    hints: [
+      "There is a special word for different forms of one element, like oxygen O₂ and ozone O₃.",
+      "Which of the two is a giant structure and which is made of separate molecules?",
+      "What has to be overcome when each one melts or turns to gas?",
+    ],
+    modelAnswer:
+      "(a) Allotropes.\n(b) Diamond has a giant covalent structure: every carbon atom is covalently bonded to four others, so melting means breaking very many strong covalent bonds, which needs a lot of energy. C₆₀ is a simple molecular substance made of separate C₆₀ molecules with only weak intermolecular forces between them. Only these weak intermolecular forces are overcome (the covalent bonds inside each molecule do not break), so little energy is needed and the molecules can slide past each other, making it soft.",
+    markScheme: [
+      {
+        point: "Allotropes",
+        keywords: ["allotrop"],
+        feedback: "Different structural forms of the same element are called allotropes — diamond, graphite and C₆₀ are allotropes of carbon.",
+      },
+      {
+        point: "Diamond: giant covalent structure — many strong covalent bonds must be broken",
+        keywords: ["giant covalent", "giant structure", "many+covalent bonds", "lots of+covalent bonds", "strong covalent bonds+break", "covalent bonds+broken", "bonded to four", "4 other"],
+        feedback: "Diamond is giant covalent: every atom is joined by strong covalent bonds, and melting would mean breaking a huge number of them.",
+      },
+      {
+        point: "C₆₀ is simple molecular, with weak intermolecular forces between the molecules",
+        keywords: ["intermolecular", "between molecules", "between the molecules", "simple molecul", "forces between"],
+        feedback: "C₆₀ is made of separate molecules held together only by weak intermolecular forces.",
+      },
+      {
+        point: "Little energy needed to overcome these forces (covalent bonds in C₆₀ not broken)",
+        keywords: ["little energy", "less energy", "not much energy", "small amount of energy", "easily overcome", "easy to overcome", "bonds+not broken", "do not break", "dont break"],
+        feedback: "Only the weak forces between molecules are overcome, which needs little energy — the C–C covalent bonds inside each C₆₀ molecule are not broken.",
+      },
+    ],
+    commonError: "Saying C₆₀ has 'weak covalent bonds' or that its covalent bonds break when it turns to gas — it is the weak intermolecular forces between molecules that are overcome.",
+    strategy: "Compare and contrast",
   },
 ];
 

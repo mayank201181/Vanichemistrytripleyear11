@@ -603,5 +603,97 @@ export const mcq: QuestionSet<MCQ> = {
       ],
       strategy: "Work backwards",
     },
+    {
+      id: "ph-m25",
+      topic: "physical",
+      section: "physical-rates",
+      difficulty: "core",
+      question: "Two gases react together in a sealed container. The pressure is increased at constant temperature. Why does the rate of reaction increase?",
+      options: [
+        "The particles gain more kinetic energy, so more collisions have enough energy",
+        "The activation energy of the reaction is lowered",
+        "There are more particles per unit volume, so collisions are more frequent",
+        "The particles become larger, so they are easier to hit",
+      ],
+      answerIndex: 2,
+      optionFeedback: [
+        "That is the effect of raising the TEMPERATURE. At constant temperature the particles have the same energy as before.",
+        "Only a catalyst lowers the activation energy (by giving an alternative pathway). Pressure does not change it.",
+        "Higher pressure squeezes the same particles into a smaller volume — like a higher concentration — so there are more frequent collisions and more successful collisions per unit time.",
+        "Particles do not change size when the pressure changes; they are just closer together.",
+      ],
+      explanation:
+        "Increasing the pressure of a gas puts more particles into each unit of volume. The particles therefore collide more frequently, so there are more successful collisions per unit time and the rate increases. The proportion of collisions with energy ≥ activation energy is unchanged — that would need a higher temperature or a catalyst.",
+      hints: ["Pressure for gases behaves like which other factor for solutions?", "What happens to the number of particles in each cm³?"],
+      strategy: "Think about particles",
+    },
+    {
+      id: "ph-m26",
+      topic: "physical",
+      section: "physical-rates",
+      difficulty: "core",
+      question: "The reaction profile shows an exothermic reaction. Which arrows show the activation energy and the enthalpy change, ΔH?",
+      diagram: `<svg viewBox="0 0 360 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Reaction profile: reactants level, a hump, and a lower products level, with arrows A from reactants up to the peak, B from reactants down to products, and C from products up to the peak">
+<line x1="40" y1="200" x2="340" y2="200" stroke="#334155" stroke-width="2"/>
+<line x1="40" y1="200" x2="40" y2="20" stroke="#334155" stroke-width="2"/>
+<text x="140" y="222" font-size="12" font-family="sans-serif" fill="#334155">Progress of reaction</text>
+<text x="14" y="140" font-size="12" font-family="sans-serif" fill="#334155" transform="rotate(-90 14 140)">Energy</text>
+<path d="M50 110 L110 110 C 150 110, 160 40, 190 40 C 220 40, 230 160, 270 160 L330 160" fill="none" stroke="#ea580c" stroke-width="3"/>
+<text x="52" y="102" font-size="11" font-family="sans-serif" fill="#334155">reactants</text>
+<text x="282" y="178" font-size="11" font-family="sans-serif" fill="#334155">products</text>
+<line x1="125" y1="110" x2="125" y2="44" stroke="#2563eb" stroke-width="2"/>
+<polygon points="125,40 120,50 130,50" fill="#2563eb"/>
+<text x="110" y="78" font-size="13" font-family="sans-serif" font-weight="bold" fill="#2563eb">A</text>
+<line x1="85" y1="112" x2="85" y2="156" stroke="#16a34a" stroke-width="2"/>
+<polygon points="85,160 80,150 90,150" fill="#16a34a"/>
+<line x1="85" y1="160" x2="270" y2="160" stroke="#94a3b8" stroke-dasharray="4 3"/>
+<text x="70" y="142" font-size="13" font-family="sans-serif" font-weight="bold" fill="#16a34a">B</text>
+<line x1="300" y1="158" x2="300" y2="44" stroke="#9333ea" stroke-width="2"/>
+<polygon points="300,40 295,50 305,50" fill="#9333ea"/>
+<line x1="125" y1="40" x2="300" y2="40" stroke="#94a3b8" stroke-dasharray="4 3"/>
+<text x="308" y="100" font-size="13" font-family="sans-serif" font-weight="bold" fill="#9333ea">C</text>
+</svg>`,
+      options: [
+        "Activation energy = C; ΔH = B",
+        "Activation energy = A; ΔH = C",
+        "Activation energy = A; ΔH = B",
+        "Activation energy = B; ΔH = A",
+      ],
+      answerIndex: 2,
+      optionFeedback: [
+        "C is measured from the PRODUCTS to the peak (the activation energy of the reverse reaction). Ea of the forward reaction starts at the reactants.",
+        "A is the activation energy, but C is not ΔH — ΔH is the difference between the reactants and products levels.",
+        "A runs from the reactants up to the peak (Ea); B runs from the reactants down to the products (ΔH, negative because it is exothermic).",
+        "These are swapped: B is the energy difference between reactants and products (ΔH), and A goes up to the top of the hump (Ea).",
+      ],
+      explanation:
+        "On a reaction profile: activation energy = the energy from the reactants level up to the top of the hump (the minimum energy colliding particles need). ΔH = the energy difference from reactants to products; here the products are lower, so energy is given out and ΔH is negative (exothermic). A catalyst would lower the hump (smaller A) but leave B unchanged.",
+      hints: ["Both quantities are measured starting from the same level — which one?", "Ea goes to the top of the hump; ΔH goes to the other energy level."],
+      strategy: "Read the graph",
+    },
+    {
+      id: "ph-m27",
+      topic: "physical",
+      section: "physical-rates",
+      difficulty: "core",
+      question: "A student compares copper(II) oxide, manganese(IV) oxide and zinc oxide as catalysts for the decomposition of hydrogen peroxide by timing how long it takes to collect 50 cm³ of oxygen. Which set of variables must she keep the same?",
+      options: [
+        "The mass of solid only",
+        "The mass of solid, and the volume, concentration and temperature of the hydrogen peroxide",
+        "The volume of hydrogen peroxide and the type of solid",
+        "The time taken and the volume of oxygen collected",
+      ],
+      answerIndex: 1,
+      optionFeedback: [
+        "Mass matters, but the volume, concentration and temperature of the hydrogen peroxide also affect the rate, so they must be controlled too.",
+        "These are the control variables: with all of them fixed, the only thing that changes is which solid is used.",
+        "The type of solid is the INDEPENDENT variable — it is the thing she deliberately changes.",
+        "The time taken is the DEPENDENT variable she measures; the 50 cm³ is fixed, but the time cannot be kept the same.",
+      ],
+      explanation:
+        "Independent variable: the type of solid. Dependent variable: time to collect 50 cm³ of O₂ (shorter time = faster rate = better catalyst). Control variables: mass (and particle size) of solid, volume and concentration of H₂O₂, temperature. 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Afterwards the catalyst can be filtered off, dried and weighed to show it is not used up.",
+      hints: ["Which variable is she changing on purpose?", "What else could affect how fast oxygen is produced?"],
+      strategy: "Eliminate wrong options",
+    },
   ],
 };

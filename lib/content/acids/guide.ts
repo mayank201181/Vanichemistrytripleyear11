@@ -148,7 +148,16 @@ export const guide: GuideSection[] = [
 
 At the end point of a titration methyl orange is **orange** (a mixture of red and yellow).
 
-**The pH scale** runs from 0 to 14. pH 7 is **neutral**; below 7 is acidic; above 7 is alkaline. The **lower** the pH, the **higher the concentration of H⁺ ions**; the higher the pH, the higher the concentration of OH⁻ ions. **Universal indicator** is a mixture of indicators that gives a range of colours, so it can estimate the pH: red (pH 0–2, strong acid), orange/yellow (pH 3–6, weak acid), green (pH 7), blue (pH 8–10, weak alkali), purple (pH 11–14, strong alkali). A pH meter gives a more precise value.
+**The pH scale** runs from 0 to 14. pH 7 is **neutral**; below 7 is acidic; above 7 is alkaline. The **lower** the pH, the **higher the concentration of H⁺ ions**; the higher the pH, the higher the concentration of OH⁻ ions. **Universal indicator** is a mixture of indicators that gives a range of colours, so it can estimate the **approximate pH**:
+
+| pH | 0–3 | 4–6 | 7 | 8–10 | 11–14 |
+|---|---|---|---|---|---|
+| Classification | strongly acidic | weakly acidic | neutral | weakly alkaline | strongly alkaline |
+| Universal indicator | red | orange/yellow | green | blue | purple |
+
+A pH meter gives a more precise value.
+
+**Extension — the factor of 10.** The pH scale is not a 'normal' scale: each **1 unit** of pH is a **factor of 10** in hydrogen ion concentration. A solution of pH 2 has **10 times** the H⁺ concentration of one at pH 3, and **100 times** (10 × 10) that of one at pH 4. So diluting an acid tenfold with water raises its pH by only about 1.
 
 **Neutralisation** is the reaction between an acid and a base to form a salt and water. For any acid + alkali the ionic equation is:
 
@@ -158,7 +167,7 @@ The salt's name comes from the acid: hydrochloric acid → **chlorides**, sulfur
 
 **General reactions of acids** (learn these as word patterns — they let you predict any product):
 
-- acid + metal → salt + hydrogen   e.g. Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)
+- acid + metal → salt + hydrogen   e.g. Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)  (learn this for hydrochloric and sulfuric acids; nitric acid + metals is not required — it does not give hydrogen cleanly)
 - acid + metal oxide → salt + water   e.g. CuO(s) + H₂SO₄(aq) → CuSO₄(aq) + H₂O(l)
 - acid + metal hydroxide → salt + water   e.g. NaOH(aq) + HNO₃(aq) → NaNO₃(aq) + H₂O(l)
 - acid + metal carbonate → salt + water + carbon dioxide   e.g. CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)
@@ -170,7 +179,8 @@ Observations matter in exams: with metals and carbonates you see **effervescence
     keyPoints: [
       "Acids release H⁺(aq) ions in water; alkalis release OH⁻(aq) ions. Triple: acid = proton donor, base = proton acceptor.",
       "Litmus: red in acid, blue in alkali. Phenolphthalein: colourless in acid, pink in alkali. Methyl orange: red in acid, yellow in alkali (orange at the end point).",
-      "pH 7 is neutral; the lower the pH, the higher the concentration of H⁺ ions.",
+      "pH 0–3 strongly acidic, 4–6 weakly acidic, 7 neutral, 8–10 weakly alkaline, 11–14 strongly alkaline; the lower the pH, the higher the concentration of H⁺ ions.",
+      "Extension: each pH unit is a factor of 10 in H⁺ concentration — pH 2 has 10× the H⁺ concentration of pH 3 and 100× that of pH 4.",
       "Neutralisation ionic equation: H⁺(aq) + OH⁻(aq) → H₂O(l).",
       "Acid + metal → salt + hydrogen; acid + base → salt + water; acid + carbonate → salt + water + carbon dioxide.",
       "Hydrochloric acid makes chlorides, sulfuric acid makes sulfates, nitric acid makes nitrates.",

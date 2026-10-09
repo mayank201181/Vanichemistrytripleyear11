@@ -440,5 +440,40 @@ export const qa: QuestionSet<QA> = {
         "Confusing iron(II) (green) with iron(III) (brown), or bromide (cream) with iodide (yellow); writing 'iodine' instead of 'iodide' for the ion.",
       strategy: "Read the data carefully",
     },
+    {
+      id: "ac-w11",
+      topic: "acids",
+      section: "acids-acids",
+      difficulty: "core",
+      question:
+        "A student measures the pH of two acids with a pH meter. Acid P has pH 1. Acid Q has pH 3.\n(a) Classify each acid using the pH scale. (1)\n(b) State which acid has the higher concentration of hydrogen ions, and how many times higher it is. (2)",
+      marks: 3,
+      hints: [
+        "Strongly acidic is pH 0–3 and weakly acidic is pH 4–6 — check where each value falls.",
+        "Lower pH means more H⁺ ions.",
+        "Each pH unit is a factor of 10.",
+      ],
+      modelAnswer:
+        "(a) Both P (pH 1) and Q (pH 3) are strongly acidic, since both are in the range pH 0–3.\n(b) P has the higher concentration of H⁺ ions. They differ by 2 pH units, and each unit is a factor of 10, so P has 10 × 10 = 100 times the H⁺ concentration of Q.",
+      markScheme: [
+        {
+          point: "Both are strongly acidic (pH 1 and pH 3 are both in the range 0–3)",
+          keywords: ["both+strong", "both strongly", "q is strong", "q is also strong", "q is a strong", "they are strong", "both are strong"],
+          feedback: "Strongly acidic is pH 0–3, so BOTH are strongly acidic — pH 3 is not weakly acidic (that starts at pH 4).",
+        },
+        {
+          point: "P has the higher H⁺ concentration",
+          keywords: ["p has more", "p has a higher", "p has the higher", "p has higher", "p is higher", "p contains more", "p is more acidic", "p has the most", "acid p has more"],
+          feedback: "The lower the pH, the higher the H⁺ concentration — so acid P.",
+        },
+        {
+          point: "100 times higher (factor of 10 per pH unit)",
+          keywords: ["100", "hundred", "10 x 10", "10 × 10"],
+          feedback: "Two pH units apart = 10 × 10 = 100 times the H⁺ concentration — not 2 or 3 times.",
+        },
+      ],
+      commonError: "Saying P has '2 times' or '3 times' as many H⁺ ions — the pH scale goes up in factors of 10, so 2 units is 100 times.",
+      strategy: "Read the data carefully",
+    },
   ],
 };
