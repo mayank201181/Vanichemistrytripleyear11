@@ -24,19 +24,19 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "In the solid, the ions are in fixed positions (in a lattice) / cannot move",
-          keywords: ["ions+fixed", "ions+lattice", "ions+cannot move", "ions+cant move", "ions+unable to move", "ions+not free", "ions+held in place", "ions+held in position", "ions+only vibrate"],
+          keywords: ["ions are fixed", "ions are held", "ions held", "fixed position", "fixed in place", "held in place", "held in position", "ions cannot move", "ions cant move", "ions are unable to move", "ions are not free", "ions not free", "ions only vibrate", "can only vibrate", "locked in", "fixed lattice", "they cannot move", "they cant move", "and cannot move", "so cannot move"],
           feedback:
             "Say what is wrong in the solid: the ions are held in fixed positions in the lattice by strong electrostatic forces, so they cannot move.",
         },
         {
           point: "When molten, the ions are free to move",
-          keywords: ["free to move", "ions+move freely", "ions can move", "able to move", "mobile", "move around", "free ions", "move about"],
+          keywords: ["ions are free", "ions become free", "ions are now free", "ions free to move", "ions can move", "ions move", "ions are mobile", "mobile ions", "ions become mobile", "ions are able to move", "free ions", "they become mobile", "they are free to move", "they become free", "they can move"],
           feedback:
             "The key change on melting is that the ions become free to move. Use the word 'ions' — never 'electrons' for an ionic compound.",
         },
         {
           point: "The moving ions carry the charge / current",
-          keywords: ["ions+carry+charge", "ions+carry+current", "ions+carries", "ions+flow of charge", "ions+charge carrier", "charged ions+move", "ions+transfer charge", "ions+carry electric"],
+          keywords: ["ions carry", "ions can carry", "ions to carry", "ions which carry", "ions that carry", "ions flow", "ions conduct", "ions move to", "charged ions", "they can carry", "they carry", "ions can move+carry", "ions move+carry", "ions are free+carry", "ions free to move+carry", "mobile ions+carry", "ions+charge carrier", "ions+flow of charge"],
           feedback:
             "Finish the explanation: the mobile ions carry charge through the liquid. A current is a flow of charge, and here the ions are the charge carriers.",
         },
@@ -63,13 +63,13 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Zinc at the cathode (negative electrode)",
-          keywords: ["zinc+cathode", "zinc+negative", "zn+cathode", "zn+negative"],
+          keywords: ["zinc at cathode", "zn at cathode", "zinc form at cathode", "zinc produc at cathode", "zinc made at cathode", "zinc collect at cathode", "zinc give off at cathode", "zinc releas at cathode", "zinc evolv at cathode", "zinc deposit at cathode", "zinc metal at cathode", "zinc deposit on cathode", "zinc on cathode", "zinc form on cathode", "zn form on cathode", "zinc at negative", "zn at negative", "zinc form at negative", "zinc produc at negative", "zinc made at negative", "zinc collect at negative", "zinc give off at negative", "zinc releas at negative", "zinc evolv at negative", "zinc deposit at negative", "zinc metal at negative", "zinc deposit on negative", "zinc on negative", "cathode yields zinc", "cathode produc zinc", "cathode give zinc", "cathode form zinc", "cathode zinc metal", "cathode zinc form", "cathode zinc produc", "cathode zinc made", "cathode zinc collect", "cathode zinc give", "cathode zinc releas", "cathode zinc deposit"],
           feedback:
             "Positive Zn²⁺ ions are attracted to the negative cathode, so zinc metal forms there. Always link the product to the named electrode.",
         },
         {
           point: "Chlorine at the anode (positive electrode)",
-          keywords: ["chlorine+anode", "chlorine+positive", "cl2+anode", "cl2+positive"],
+          keywords: ["chlorine at anode", "cl2 at anode", "chlorine form at anode", "chlorine produc at anode", "chlorine made at anode", "chlorine collect at anode", "chlorine give off at anode", "chlorine releas at anode", "chlorine evolv at anode", "chlorine gas at anode", "chlorine gas form at anode", "chlorine gas give off at anode", "chlorine gas produc at anode", "chlorine at positive", "cl2 at positive", "chlorine form at positive", "chlorine produc at positive", "chlorine made at positive", "chlorine collect at positive", "chlorine give off at positive", "chlorine releas at positive", "chlorine evolv at positive", "chlorine gas at positive", "chlorine gas form at positive", "chlorine gas give off at positive", "chlorine gas produc at positive", "anode yields chlorine", "anode produc chlorine", "anode give chlorine", "anode form chlorine", "anode chlorine gas", "anode chlorine form", "anode chlorine produc", "anode chlorine made", "anode chlorine collect", "anode chlorine give", "anode chlorine releas"],
           feedback:
             "Negative Cl⁻ ions are attracted to the positive anode and form chlorine gas (Cl₂). Note: the product is chlorine, not 'chloride'.",
         },
@@ -108,19 +108,19 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Pink / brown solid (copper) forms on the cathode",
-          keywords: ["pink", "brown", "copper+cathode", "copper+negative", "copper+coat", "copper+deposit", "copper+plate"],
+          keywords: ["pink", "brown", "copper at cathode", "copper form on cathode", "copper form at cathode", "copper deposit on cathode", "copper deposit at cathode", "copper on cathode", "copper coat", "coated in copper", "coating of copper", "layer of copper", "cathode copper", "copper at negative", "copper plat"],
           feedback:
             "At the cathode you see a pink-brown coating of copper forming on the electrode, because copper is less reactive than hydrogen.",
         },
         {
           point: "Bubbles (of a colourless gas / oxygen) at the anode",
-          keywords: ["bubbl", "fizz", "effervesc", "oxygen", "gas+anode", "gas+positive"],
+          keywords: ["bubbl at anode", "bubbl at positive", "gas at anode", "gas at positive", "anode bubbl", "anode gas", "anode fizz", "fizz at anode", "effervesc at anode", "oxygen at anode", "oxygen form at anode", "oxygen produc at anode", "anode oxygen", "bubbl of oxygen", "bubbl of colourless", "oxygen bubbl", "oxygen gas", "colourless gas"],
           feedback:
             "At the anode, hydroxide ions are discharged (no halide present), so you see bubbles of oxygen gas.",
         },
         {
           point: "Cu²⁺ ions gain electrons / are discharged / reduced at the cathode (so are removed from solution)",
-          keywords: ["cu2", "copper ions+gain", "copper ii ions+gain", "copper ions+reduc", "copper ions+discharg", "copper ions+removed", "copper ions+used", "ions+gain electrons", "ions+removed", "ions+discharged"],
+          keywords: ["cu2", "copper ions gain", "copper ii ions gain", "copper ions reduc", "copper ii ions reduc", "copper ions discharg", "copper ii ions discharg", "copper ions remov", "copper ii ions remov", "copper ions used", "copper ii ions used", "copper ions turn into", "ions gain electrons", "copper ions are reduc"],
           feedback:
             "Explain the cause: the blue Cu²⁺ ions gain electrons at the cathode (Cu²⁺ + 2e⁻ → Cu) and so are removed from the solution.",
         },
@@ -222,7 +222,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Hydrogen forms at the cathode and chlorine at the anode",
-          keywords: ["hydrogen+chlorine", "h2+cl2"],
+          keywords: ["hydrogen at cathode+chlorine", "hydrogen at negative+chlorine", "hydrogen form at cathode+chlorine", "hydrogen produc at cathode+chlorine", "hydrogen collect at cathode+chlorine", "cathode yields hydrogen+chlorine", "cathode produc hydrogen+chlorine", "cathode hydrogen form+chlorine", "chlorine at anode+hydrogen", "chlorine at positive+hydrogen", "chlorine form at anode+hydrogen", "chlorine produc at anode+hydrogen", "chlorine collect at anode+hydrogen", "anode yields chlorine+hydrogen", "anode produc chlorine+hydrogen", "anode chlorine form+hydrogen"],
           feedback:
             "State the products: hydrogen at the cathode (sodium is more reactive than hydrogen) and chlorine at the anode (a halide is present).",
         },
@@ -261,25 +261,25 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Copper(II) chloride: copper at the cathode",
-          keywords: ["copper+cathode", "copper+negative", "cu+cathode"],
+          keywords: ["copper at cathode", "cu at cathode", "copper form at cathode", "copper produc at cathode", "copper made at cathode", "copper collect at cathode", "copper give off at cathode", "copper releas at cathode", "copper evolv at cathode", "copper deposit at cathode", "copper metal at cathode", "copper deposit on cathode", "copper on cathode", "copper form on cathode", "copper at negative", "cu at negative", "copper form at negative", "copper produc at negative", "copper made at negative", "copper collect at negative", "copper give off at negative", "copper releas at negative", "copper evolv at negative", "copper deposit at negative", "copper metal at negative", "copper deposit on negative", "copper on negative", "cathode yields copper", "cathode produc copper", "cathode give copper", "cathode form copper", "cathode copper metal", "cathode copper form", "cathode copper produc", "cathode copper made", "cathode copper collect", "cathode copper give", "cathode copper releas", "cathode copper deposit"],
           feedback:
             "In copper(II) chloride solution copper is deposited at the cathode, because copper is less reactive than hydrogen.",
         },
         {
           point: "Copper(II) chloride: chlorine at the anode",
-          keywords: ["chlorine+anode", "chlorine+positive", "cl2+anode", "cl2+positive"],
+          keywords: ["chlorine at anode", "cl2 at anode", "chlorine form at anode", "chlorine produc at anode", "chlorine made at anode", "chlorine collect at anode", "chlorine give off at anode", "chlorine releas at anode", "chlorine evolv at anode", "chlorine gas at anode", "chlorine gas form at anode", "chlorine gas give off at anode", "chlorine gas produc at anode", "chlorine at positive", "cl2 at positive", "chlorine form at positive", "chlorine produc at positive", "chlorine made at positive", "chlorine collect at positive", "chlorine give off at positive", "chlorine releas at positive", "chlorine evolv at positive", "chlorine gas at positive", "chlorine gas form at positive", "chlorine gas give off at positive", "chlorine gas produc at positive", "anode yields chlorine", "anode produc chlorine", "anode give chlorine", "anode form chlorine", "anode chlorine gas", "anode chlorine form", "anode chlorine produc", "anode chlorine made", "anode chlorine collect", "anode chlorine give", "anode chlorine releas"],
           feedback:
             "Chloride is a halide, so chlorine gas (Cl₂) forms at the anode of the copper(II) chloride cell.",
         },
         {
           point: "Sodium sulfate: hydrogen at the cathode",
-          keywords: ["hydrogen+cathode", "hydrogen+negative", "h2+cathode"],
+          keywords: ["hydrogen at cathode", "h2 at cathode", "hydrogen form at cathode", "hydrogen produc at cathode", "hydrogen made at cathode", "hydrogen collect at cathode", "hydrogen give off at cathode", "hydrogen releas at cathode", "hydrogen evolv at cathode", "hydrogen gas at cathode", "hydrogen gas form at cathode", "hydrogen gas give off at cathode", "hydrogen gas produc at cathode", "hydrogen at negative", "h2 at negative", "hydrogen form at negative", "hydrogen produc at negative", "hydrogen made at negative", "hydrogen collect at negative", "hydrogen give off at negative", "hydrogen releas at negative", "hydrogen evolv at negative", "hydrogen gas at negative", "hydrogen gas form at negative", "hydrogen gas give off at negative", "hydrogen gas produc at negative", "cathode yields hydrogen", "cathode produc hydrogen", "cathode give hydrogen", "cathode form hydrogen", "cathode hydrogen gas", "cathode hydrogen form", "cathode hydrogen produc", "cathode hydrogen made", "cathode hydrogen collect", "cathode hydrogen give", "cathode hydrogen releas"],
           feedback:
             "Sodium is more reactive than hydrogen, so hydrogen gas forms at the cathode in sodium sulfate solution — not sodium.",
         },
         {
           point: "Sodium sulfate: oxygen at the anode",
-          keywords: ["oxygen+anode", "oxygen+positive", "o2+anode"],
+          keywords: ["oxygen at anode", "o2 at anode", "oxygen form at anode", "oxygen produc at anode", "oxygen made at anode", "oxygen collect at anode", "oxygen give off at anode", "oxygen releas at anode", "oxygen evolv at anode", "oxygen gas at anode", "oxygen gas form at anode", "oxygen gas give off at anode", "oxygen gas produc at anode", "oxygen at positive", "o2 at positive", "oxygen form at positive", "oxygen produc at positive", "oxygen made at positive", "oxygen collect at positive", "oxygen give off at positive", "oxygen releas at positive", "oxygen evolv at positive", "oxygen gas at positive", "oxygen gas form at positive", "oxygen gas give off at positive", "oxygen gas produc at positive", "anode yields oxygen", "anode produc oxygen", "anode give oxygen", "anode form oxygen", "anode oxygen gas", "anode oxygen form", "anode oxygen produc", "anode oxygen made", "anode oxygen collect", "anode oxygen give", "anode oxygen releas"],
           feedback:
             "No halide is present in sodium sulfate solution, so oxygen forms at the anode (from hydroxide ions).",
         },

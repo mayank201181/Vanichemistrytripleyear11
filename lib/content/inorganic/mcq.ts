@@ -251,7 +251,7 @@ export const mcq: QuestionSet<MCQ> = {
       topic: "inorganic",
       section: "inorganic-group7",
       difficulty: "core",
-      question: "Hydrogen chloride gas is dissolved in methylbenzene. Blue litmus paper is dipped into the solution. Which row is correct?",
+      question: "Hydrogen chloride gas is dissolved in methylbenzene. Blue litmus paper is dipped into the solution. Which statement is correct?",
       options: [
         "litmus turns red because HCl ionises to form H⁺ ions",
         "litmus turns red because methylbenzene is acidic",

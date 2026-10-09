@@ -369,7 +369,7 @@ You cannot make lead(II) sulfate from lead carbonate + sulfuric acid: a layer of
     heading: "Chemical tests for gases, cations, anions and water",
     discovery: {
       problem:
-        "A student adds silver nitrate to tap water and gets a white precipitate, so concludes the water contains chloride ions. Her friend points out that silver carbonate is also a white solid. How can the test be changed so a white precipitate can ONLY mean chloride?",
+        "A student adds silver nitrate to tap water and gets a white precipitate, so concludes the water contains chloride ions. Her friend points out that carbonate ions in tap water would also form an insoluble silver carbonate precipitate. How can the test be changed so a white precipitate can ONLY mean chloride?",
       idea:
         "Add **dilute nitric acid first**. The acid reacts with any carbonate ions (2H⁺ + CO₃²⁻ → H₂O + CO₂), removing them, so they can't form a precipitate with Ag⁺. Nitric acid is used — not hydrochloric acid, which would add Cl⁻ ions itself and always give a white precipitate.",
     },

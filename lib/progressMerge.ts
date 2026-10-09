@@ -60,7 +60,7 @@ export interface Progress {
 
 export const EMPTY_PROGRESS: Progress = {
   version: 1,
-  name: "Vanshika",
+  name: "Vani",
   attempts: {},
   resets: {},
   best: {},

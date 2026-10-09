@@ -142,6 +142,8 @@ const CONFUSABLE: [string, string][] = [
   ["fluoride", "fluorine"],
   ["oxidation", "oxidising"],
   ["condenser", "condenses"],
+  ["exotherm", "endotherm"],
+  ["anode", "cathode"],
 ];
 
 function confusable(a: string, k: string): boolean {
@@ -159,6 +161,8 @@ export function wordMatch(a: string, k: string): boolean {
   if (isNumber(k)) return isNumber(a) && Number(a) === Number(k);
   if (isNumber(a)) return false;
   if (a === `${k}s` || a === `${k}es`) return true;
+  // chemical formulae / mixed letters+digits (c2h4cl2, cu2, h2so4): exact only — one slip is a different substance
+  if (/\d/.test(k) || /\d/.test(a)) return false;
   if (k.length < 4) return false;
   if (a.startsWith(k)) return true; // stems: acid → acidic, evaporat → evaporating
   if (k.length < 6 || confusable(a, k)) return false; // no typo tolerance for short words (break ≠ bread)

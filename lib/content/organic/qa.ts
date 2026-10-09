@@ -44,7 +44,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Difference described: position of the C=C double bond is different (or one has a branched chain)",
-          keywords: ["position", "double bond+carbon 1", "double bond+carbon 2", "double bond+end", "double bond+middle", "double bond+different place", "branch", "carbon 1+carbon 2", "first carbon", "second carbon", "carbon 1", "carbon 2", "middle", "end of the chain", "double bond+differ"],
+          keywords: ["position", "double bond+carbon 1", "double bond+carbon 2", "double bond+end", "double bond+middle", "double bond+different place", "branch", "carbon 1+carbon 2", "first carbon", "second carbon", "carbon 1", "carbon 2", "middle", "end of the chain", "double bond+differ", "c yields c+differ", "c yields c+carbon", "different place", "different position"],
           feedback:
             "Say what is different: the C=C double bond is in a different position — between carbons 1 and 2 in but-1-ene, between carbons 2 and 3 in but-2-ene (methylpropene has a branched chain).",
         },
@@ -242,7 +242,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "CH₃CH₂COOH + CH₃OH → CH₃CH₂COOCH₃ + H₂O",
-          keywords: ["ch3ch2cooch3+h2o", "c2h5cooch3+h2o", "ch3ch2co2ch3+h2o", "c2h5co2ch3+h2o"],
+          keywords: ["ch3ch2cooch3 h2o", "c2h5cooch3 h2o", "ch3ch2co2ch3 h2o", "c2h5co2ch3 h2o", "h2o ch3ch2cooch3", "h2o c2h5cooch3", "yields ch3ch2cooch3", "yields c2h5cooch3", "yields ch3ch2co2ch3", "yields c2h5co2ch3"],
           feedback: "Water is lost between –COOH and –OH: CH₃CH₂COOH + CH₃OH ⇌ CH₃CH₂COOCH₃ + H₂O.",
         },
         {
@@ -333,8 +333,8 @@ export const qa: QuestionSet<QA> = {
           feedback: "Start with moles: 36 ÷ 180 = 0.20 mol of glucose.",
         },
         {
-          point: "Moles of ethanol = 2 × 0.20 = 0.40 mol (and Mr ethanol = 46)",
-          keywords: ["0.4", "0.40", "46"],
+          point: "Moles of ethanol = 2 × 0.20 = 0.40 mol (1 : 2 mole ratio used)",
+          keywords: ["0.4", "0.40"],
           feedback: "Use the ratio 1 : 2 — 0.40 mol of ethanol forms. Mr C₂H₅OH = (2 × 12) + (6 × 1) + 16 = 46.",
         },
         {
@@ -420,7 +420,7 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Addition: monomer has a C=C double bond (an alkene / unsaturated), which opens",
-          keywords: ["double bond", "alkene", "unsaturated", "double bonds", "c+bond+break", "c+bond+open", "c+bond+propene"],
+          keywords: ["double bond", "alkene", "unsaturated", "double bonds", "c yields c", "c+bond+break", "c+bond+open"],
           feedback: "Addition monomers are alkenes: they contain a C=C double bond, which opens up to link the monomers.",
         },
         {
@@ -435,7 +435,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Condensation: a small molecule (water) is eliminated as each link forms",
-          keywords: ["water", "h2o", "small molecule"],
+          keywords: ["small molecule", "water is eliminated", "eliminat+water", "lose water", "loses water", "lost+water", "water+lost", "water+removed", "releas+water", "water+released", "water+given off", "produces water", "h2o"],
           feedback: "Each time an ester link forms, a small molecule — water — is eliminated. That is what \"condensation\" means here.",
         },
         {

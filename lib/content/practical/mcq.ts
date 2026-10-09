@@ -260,14 +260,14 @@ export const mcq: QuestionSet<MCQ> = {
         "The volume of gas produced",
         "The concentration of the acid",
         "The size of the marble chips",
-        "The time taken to collect the gas",
+        "The time taken for the reaction to stop",
       ],
       answerIndex: 2,
       optionFeedback: [
         "The volume of gas is what is measured — it is the dependent variable.",
         "Concentration is the independent variable; it must be changed, not kept the same.",
         "Chip size changes the surface area and so the rate, so it must be controlled for a fair test.",
-        "Time is measured along with the volume of gas — it is part of the dependent measurement, not a control.",
+        "How long the reaction lasts depends on the acid concentration — it is an outcome you measure, not something you can keep constant.",
       ],
       explanation:
         "Control variables are factors that would **also affect the rate** if they changed: the **size (surface area) and mass of marble chips**, the **volume of acid**, and the **temperature**. Keeping them the same means any change in rate is caused only by the concentration.",

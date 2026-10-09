@@ -107,7 +107,7 @@ MODEL ANSWER (for reference only — other correct answers are fine):
 STUDENT'S ANSWER:
 """${answer}"""
 
-Mark the student's answer. Return exactly ${points.length} entries in "points", in mark-scheme order. "improvedAnswer" is a full-marks version written in the student's own style, fixing only what was missing or wrong.`;
+Mark the student's answer. Return exactly ${points.length} entries in "points", in mark-scheme order. "improvedAnswer" is a full-marks version written in the student's own style, fixing only what was missing or wrong — or an empty string if she already has full marks.`;
 
       const res = await client.messages.parse({
         model: MODEL,

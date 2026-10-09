@@ -90,7 +90,7 @@ export function AiExaminer({
       <div className="mt-3 rounded-lg bg-violet-50 p-3 text-sm text-violet-950">
         <MarkdownLite text={res.overall} className="text-violet-950" />
       </div>
-      {res.improvedAnswer && (
+      {res.improvedAnswer.trim().length > 20 && (
         <details className="mt-3 rounded-lg border border-slate-200 p-3 text-sm">
           <summary className="cursor-pointer font-semibold text-slate-700">Your answer, upgraded to full marks</summary>
           <MarkdownLite text={res.improvedAnswer} className="mt-2 text-slate-800" />

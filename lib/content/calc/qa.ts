@@ -144,8 +144,8 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "% yield = 40.6 ÷ 49.2 × 100 = 82.5%",
-          keywords: ["82.5", "82.52", "83", "82.8"],
-          feedback: "% yield = actual ÷ theoretical × 100 = 40.6 ÷ 49.2 × 100 = 82.5% (82.8% if you used 49).",
+          keywords: ["82.5", "82.52", "83", "82.9", "82.86"],
+          feedback: "% yield = actual ÷ theoretical × 100 = 40.6 ÷ 49.2 × 100 = 82.5% (82.9% if you used 49 g).",
         },
         {
           point: "Valid reason, e.g. some product stays dissolved / does not all crystallise; lost on filter paper or when transferring",

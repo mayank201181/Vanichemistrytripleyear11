@@ -115,12 +115,12 @@ const questions: QA[] = [
       },
       {
         point: "When molten, the ions are free to move",
-        keywords: ["ions+free to move", "ions can move", "ions move", "ions are mobile", "mobile ions", "ions+move freely", "ions+able to move", "ions+moving", "free moving ions"],
+        keywords: ["ions are free", "ions become free", "ions are now free", "ions free to move", "ions can move", "ions move", "ions are mobile", "mobile ions", "ions move freely", "ions are able to move", "ions moving", "free moving ions", "ions can now move"],
         feedback: "When molten the IONS are free to move. Be specific — the particles that move are ions, not electrons.",
       },
       {
         point: "The ions carry the charge / current (to the electrodes)",
-        keywords: ["ions+carry", "ions+charge", "ions+current", "ions+electrodes", "ions+conduct", "charged particles", "charged ions"],
+        keywords: ["ions carry", "ions can carry", "ions to carry", "ions which carry", "ions that carry", "ions move to", "ions flow", "ions to the electrodes", "ions conduct", "charged ions", "ions are attracted to", "they can carry", "they carry", "ions can move+carry", "ions move+carry", "ions are free+carry", "ions free to move+carry", "mobile ions+carry"],
         feedback: "Finish the explanation: the moving ions carry the charge through the liquid (towards the oppositely charged electrodes).",
       },
     ],
@@ -150,7 +150,7 @@ const questions: QA[] = [
       },
       {
         point: "One lone pair (2 non-bonding electrons) on each nitrogen atom",
-        keywords: ["one lone pair", "1 lone pair", "a lone pair", "one non-bonding pair", "1 non-bonding pair", "two non-bonding", "2 non-bonding", "2 unshared", "two unshared", "one unshared pair", "lone pair", "non-bonding", "nonbonding", "unbonded", "not bonded", "electrons left", "not used in bonding", "one pair of non-bonding"],
+        keywords: ["one lone pair", "1 lone pair", "a lone pair", "one non-bonding pair", "1 non-bonding pair", "a non-bonding pair", "two non-bonding", "2 non-bonding", "2 unshared", "two unshared", "one unshared pair", "two electrons left", "2 electrons left", "two electrons not used", "2 electrons not used", "one pair of non-bonding", "one pair of electrons not", "one pair of unbonded"],
         feedback: "Nitrogen has 5 outer electrons and uses 3 in bonding, leaving 2: one lone pair on each atom.",
       },
       {
@@ -201,7 +201,7 @@ const questions: QA[] = [
       },
       {
         point: "Weak forces between the layers",
-        keywords: ["weak forces", "weak intermolecular", "weakly held", "weak attraction", "weak bonds between", "layers+weak", "weak van der waals", "weakly attracted", "weak force"],
+        keywords: ["weak forces", "weak intermolecular", "weakly held", "weak attraction", "weak bonds between", "layers are weakly", "weak between", "weak van der waals", "weakly attracted", "weak force"],
         feedback: "The layers in graphite are held together only by weak forces (not covalent bonds).",
       },
       {
@@ -334,7 +334,7 @@ const questions: QA[] = [
       },
       {
         point: "Gold is unreactive / does not corrode (oxidise or tarnish)",
-        keywords: ["unreactive", "not reactive", "low reactivity", "does not corrode", "doesnt corrode", "not corrode", "corrosion resistant", "resists corrosion", "does not tarnish", "doesnt tarnish", "does not oxidise", "doesnt oxidise", "inert", "not react with oxygen", "will not corrode", "wont corrode"],
+        keywords: ["unreactive", "not reactive", "low reactivity", "does not corrode", "doesnt corrode", "not corrode", "corrosion resistant", "resists corrosion", "does not tarnish", "doesnt tarnish", "does not oxidise", "doesnt oxidise", "inert", "not react with oxygen", "will not corrode", "wont corrode", "does not rust", "doesnt rust", "wont rust", "will not rust"],
         feedback: "The reason for gold: it is very unreactive, so it does not corrode or tarnish.",
       },
       {

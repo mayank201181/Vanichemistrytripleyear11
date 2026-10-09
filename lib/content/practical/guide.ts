@@ -124,7 +124,7 @@ export const guide: GuideSection[] = [
     memoryTrick:
       "\"Pipette = Put one exact volume; Burette = Bit by bit.\" And for the condenser: \"in at the bottom, out at the top, so the jacket's full and the cooling won't stop.\"",
     examTip:
-      "Mark schemes reject \"syringe\" alone for a gas syringe and \"scales\" for a balance — give the full name. Units: cm³ (accept cm3, not ml unless the scale shows ml). For burette readings, \"21.6\" loses the mark where \"21.60\" or \"21.65\" is required: always 2 d.p.",
+      "Mark schemes reject \"syringe\" alone for a gas syringe and \"scales\" for a balance — give the full name. Units: write cm³ (cm3 is fine) for volumes of liquid and gas; it is the unit Edexcel uses, so prefer it to ml. For burette readings, \"21.6\" loses the mark where \"21.60\" or \"21.65\" is required: always 2 d.p.",
     thinkDeeper:
       "A burette has an uncertainty of ±0.05 cm³ for each reading. Why does a titre (end − start) have an uncertainty of about ±0.10 cm³, and why does that make a titre of 25 cm³ more reliable (smaller percentage uncertainty) than a titre of 5 cm³?",
     workedExample: {

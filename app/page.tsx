@@ -71,7 +71,7 @@ export default function Home() {
         <p className="text-sm font-semibold uppercase tracking-wider text-white/80">Year 11 · Edexcel International GCSE Chemistry 4CH1 · Triple</p>
         <h1 className="mt-1 text-3xl font-extrabold sm:text-4xl">{ready && p.name ? `Hi ${p.name}! 👋` : "Your chemistry lab 👋"}</h1>
         <p className="mt-2 max-w-2xl text-white/90">
-          Revision guides for every topic, {ALL_QUESTIONS.length} exam-style questions marked instantly (with an AI examiner for second opinions), your teacher&apos;s October consolidation paper, flashcards, interactive labs — and Professor Mole, your AI tutor, on every page.
+          {`Revision guides for every topic, ${ALL_QUESTIONS.length} exam-style questions`} marked instantly (with an AI examiner for second opinions), your teacher&apos;s October consolidation paper, flashcards, interactive labs — and Professor Mole, your AI tutor, on every page.
         </p>
         {ready && !p.name && (
           <form

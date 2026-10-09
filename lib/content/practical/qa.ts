@@ -109,7 +109,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Working: (6.2 + 6.6 + 6.5) ÷ 3 / 19.3 ÷ 3",
-          keywords: ["19.3", "19.3/3", "6.43", "6.433"],
+          keywords: ["19.3", "19.3/3", "6.43", "6.433", "6.5 3", "6.6 3", "6.2 3", "divided by 3", "divide by 3"],
           feedback: "Show the working: add the three good results (6.2 + 6.6 + 6.5 = 19.3) and divide by 3. (A correct unrounded answer, 6.43, also earns this mark.)",
         },
         {
@@ -210,7 +210,7 @@ export const qa: QuestionSet<QA> = {
         {
           point: "Titrations 1 and 3 are concordant (titration 2 is not)",
           keywords: [
-            "1 and 3", "1 & 3", "one and three", "first and third", "t1 and t3",
+            "1 and 3", "1 & 3", "24.40 and 24.30", "24.30 and 24.40", "one and three", "first and third", "t1 and t3",
             "exclude titration 2", "ignore titration 2", "leave out titration 2", "except titration 2", "without titration 2",
           ],
           feedback:

@@ -24,7 +24,7 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Acids: hydrogen ions, H⁺",
-          keywords: ["hydrogen ion", "h ion", "proton", "h aq", "hydrogen+acid"],
+          keywords: ["hydrogen ion", "h ion", "proton", "h aq"],
           feedback: "All acids release hydrogen ions, H⁺(aq), in water — that is what makes them acidic.",
         },
         {
@@ -39,7 +39,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Correct state symbols: (aq), (aq) → (l)",
-          keywords: ["h2o l", "water l", "aq+h2o l", "aq aq l"],
+          keywords: ["oh aq yields h2o l", "h aq yields h2o l", "oh aq yields water l", "h aq yields water l"],
           feedback: "Include state symbols: H⁺(aq) + OH⁻(aq) → H₂O(l). Water is a liquid, (l), not (aq).",
         },
       ],
@@ -65,12 +65,12 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Start: pink",
-          keywords: ["pink", "magenta"],
+          keywords: ["pink to", "pink at", "starts pink", "start+pink", "pink+beginning", "pink then", "pink yields", "from pink", "pink initially", "is pink", "magenta"],
           feedback: "Phenolphthalein is pink in alkali, and the flask starts off containing the sodium hydroxide.",
         },
         {
           point: "End point: colourless",
-          keywords: ["colourless", "clear", "no colour"],
+          keywords: ["to colourless", "yields colourless", "turns colourless", "becomes colourless", "goes colourless", "colourless+end", "then colourless", "no colour", "to clear", "turns clear"],
           feedback: "Phenolphthalein turns colourless as soon as all the alkali has been neutralised. Note: 'clear' means transparent — 'colourless' is the safer word.",
         },
         {
@@ -111,12 +111,12 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Add the acid from a burette (while swirling the flask)",
-          keywords: ["burette"],
+          keywords: ["burette", "burrete", "burrette"],
           feedback: "The acid is added from a burette, which lets you add a measured, variable volume — swirl the flask as you add it.",
         },
         {
           point: "Add dropwise near the end point until the indicator just changes colour (e.g. yellow → orange)",
-          keywords: ["dropwise", "drop by drop", "drop wise", "drops at a time", "colour change", "changes colour", "change colour", "yellow+orange", "pink+colourless", "end point", "colourless", "orange"],
+          keywords: ["dropwise", "drop by drop", "drop wise", "drops at a time", "colour change", "changes colour", "change colour", "yellow+orange", "pink+colourless", "end point", "to orange", "turns orange", "yields orange", "to colourless", "turns colourless"],
           feedback: "Stop at the end point — when the indicator just changes colour (methyl orange: yellow → orange). Add the acid drop by drop near the end so you do not overshoot.",
         },
         {
@@ -335,7 +335,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Without indicator (or remove it with activated charcoal and filter)",
-          keywords: ["without indicator", "no indicator", "without methyl orange", "charcoal", "omit+indicator", "leave out+indicator", "not add+indicator"],
+          keywords: ["without indicator", "no indicator", "without methyl orange", "charcoal", "omit+indicator", "leave out+indicator", "not add indicator", "dont add indicator", "not use indicator", "dont use indicator", "remove+indicator"],
           feedback: "The indicator would contaminate the salt, so repeat the titration WITHOUT it (or remove it with activated charcoal and filter).",
         },
         {

@@ -170,15 +170,14 @@ export const qa: QuestionSet<QA> = {
         {
           point: "Fewer collisions per second / less frequent collisions",
           keywords: [
-            "fewer collisions",
             "less frequent",
             "fewer+per second",
             "less+per second",
             "fewer+per unit time",
+            "fewer+per minute",
             "frequency+decreas",
             "frequency+lower",
-            "less collisions",
-            "fewer successful",
+            "less often",
             "collide less often",
           ],
           feedback:
@@ -374,18 +373,18 @@ export const qa: QuestionSet<QA> = {
         {
           point: "ΔH = 2253 − 2346 = −93 kJ/mol",
           keywords: ["93"],
-          feedback: "ΔH = bonds broken − bonds made = 2253 − 2346 = −93 kJ/mol. Keep the minus sign.",
+          feedback: "ΔH = bonds broken − bonds made = 2253 − 2346 = −93 kJ/mol. Check your sign yourself (the auto-marker cannot see minus signs): ΔH must be NEGATIVE here, because bonds made (2346) > bonds broken (2253). Writing +93 (made − broken) loses this mark in the exam.",
         },
         {
           point: "Exothermic, because more energy is released making bonds than taken in breaking bonds / ΔH negative",
           keywords: [
-            "exothermic+more+released",
-            "exothermic+more energy",
-            "exothermic+negative",
-            "exothermic+making+more",
-            "exothermic+forming+more",
-            "exothermic+greater",
-            "exothermic+bigger",
+            "exotherm+more+released",
+            "exotherm+more energy",
+            "exotherm+negative",
+            "exotherm+making+more",
+            "exotherm+forming+more",
+            "exotherm+greater",
+            "exotherm+bigger",
           ],
           feedback: "Give the reason: exothermic because the energy released making bonds is greater than the energy needed to break bonds, so ΔH is negative.",
         },
@@ -423,7 +422,7 @@ export const qa: QuestionSet<QA> = {
         {
           point: "ΔH = −16.38 ÷ 0.0100 = −1640 kJ/mol (negative sign)",
           keywords: ["1638", "1640", "1600"],
-          feedback: "ΔH = −Q ÷ n = −16.38 kJ ÷ 0.0100 mol = −1640 kJ/mol (3 s.f.). Include the negative sign — the water got hotter.",
+          feedback: "ΔH = −Q ÷ n = −16.38 kJ ÷ 0.0100 mol = −1640 kJ/mol (3 s.f.). The answer MUST be negative — the water got hotter, so combustion is exothermic. The auto-marker cannot see minus signs, so check yours: +1640 or 1640 with no sign loses the mark in the exam.",
         },
         {
           point: "Reason: heat lost to the surroundings (or incomplete combustion)",
@@ -472,7 +471,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Because the forward reaction is exothermic / higher temperature favours the endothermic (backward) direction",
-          keywords: ["endothermic", "exothermic"],
+          keywords: ["exotherm", "backward+endotherm", "reverse+endotherm", "endothermic direction", "favours+endothermic direction"],
           feedback: "ΔH is negative, so the forward reaction is exothermic and the backward reaction endothermic; increasing temperature favours the endothermic direction.",
         },
       ],
@@ -497,12 +496,12 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "The forward reaction is exothermic",
-          keywords: ["exothermic"],
+          keywords: ["exotherm", "gives out heat", "releases heat", "heat+given out", "heat+released"],
           feedback: "ΔH is negative, so the forward reaction (making ammonia) is exothermic.",
         },
         {
           point: "A lower temperature would give a higher yield / shift equilibrium to the right",
-          keywords: ["lower+higher yield", "lower+greater yield", "lower+more ammonia", "low+higher yield", "shift+right", "to the right", "favours+forward", "favours+exothermic", "higher temperature+lower yield", "higher temperature+less ammonia", "shift+left"],
+          keywords: ["lower+higher yield", "lower+greater yield", "lower+more ammonia", "low+higher yield", "lower+right", "low+right", "lower+favours+forward", "favours+exotherm", "higher temperature+lower yield", "higher temperature+less ammonia", "shift+left"],
           feedback: "A lower temperature favours the exothermic forward reaction, so it would give a HIGHER yield of ammonia.",
         },
         {

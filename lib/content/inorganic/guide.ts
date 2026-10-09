@@ -36,7 +36,7 @@ If universal indicator is added to the water, it turns **purple/blue** because t
 - so the **attraction** between the nucleus and the outer electron is **weaker** (even though the nuclear charge is greater);
 - so the outer electron is **lost more easily**.
 
-**Predicting rubidium and caesium.** Following the trend, Rb and Cs react even more violently — they react **explosively** with water (and caesium sinks, as it is denser than water). The products follow the same pattern: 2Rb + 2H₂O → 2RbOH + H₂. Melting point **decreases** down the group (Cs melts at about 29 °C), while density generally increases.
+**Predicting rubidium and caesium.** Following the trend, Rb and Cs react even more violently — they react **explosively** with water (and both sink, as they are denser than water). The products follow the same pattern: 2Rb + 2H₂O → 2RbOH + H₂. Melting point **decreases** down the group (Cs melts at about 29 °C), while density generally increases.
 
 In an exam you may be given data for an unfamiliar Group 1 element and asked to predict its properties: use the trend, state the direction, and give the products by analogy (metal hydroxide + hydrogen).`,
     diagram: `<svg viewBox="0 0 520 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lithium, sodium and potassium atoms drawn with increasing numbers of shells; the outer electron is further from the nucleus going down the group">
@@ -155,7 +155,7 @@ The lesson: an acid only behaves as an acid when **water** is present to release
 <text x="435" y="216" font-family="sans-serif" font-size="12" text-anchor="middle">no reaction</text>
 <text x="120" y="80" font-family="sans-serif" font-size="11">Cl₂ more reactive</text>
 <text x="295" y="80" font-family="sans-serif" font-size="11">Cl₂ more reactive</text>
-<text x="350" y="100" font-family="sans-serif" font-size="11">Br₂ less reactive</text>
+<text x="312" y="105" font-family="sans-serif" font-size="11">Br₂ less reactive</text>
 </svg>`,
     diagramCaption:
       "Only a more reactive halogen can displace a less reactive one. The bromine water in the third tube keeps its own pale orange colour because nothing happens.",

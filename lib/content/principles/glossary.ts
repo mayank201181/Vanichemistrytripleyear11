@@ -119,7 +119,7 @@ export const glossary: GlossaryCard[] = [
   {
     topic: "principles",
     term: "Electronic configuration",
-    definition: "The arrangement of electrons in shells around the nucleus; for the first 20 elements the shells hold 2, 8, 8, 2.",
+    definition: "The arrangement of electrons in shells around the nucleus; for the first 20 elements the first three shells hold up to 2, 8 and 8 electrons, and the rest go into the fourth shell.",
     example: "Ca: 2.8.8.2; Cl⁻: 2.8.8.",
   },
   {

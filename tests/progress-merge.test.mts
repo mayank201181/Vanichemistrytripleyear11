@@ -53,7 +53,7 @@ test("best scores keep the higher one; history has no duplicates", () => {
 
 test("older saves without new fields still load", () => {
   const p = normaliseProgress({ name: "", stars: 5 } as Partial<Progress>);
-  assert.equal(p.name, "Vanshika");
+  assert.equal(p.name, "Vani");
   assert.deepEqual(p.resets, {});
   assert.equal(p.stars, 5);
 });

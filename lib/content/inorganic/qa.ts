@@ -67,7 +67,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Weaker attraction between nucleus and outer electron",
-          keywords: ["weaker attraction", "less attraction", "attraction+weaker", "attracted+less", "less strongly", "weaker force", "weaker pull", "less attracted", "held less", "weakly attracted", "attraction is weaker", "attract+less", "attracts it less", "weaker"],
+          keywords: ["weaker attraction", "less attraction", "attraction+weaker", "attracted+less", "less strongly", "weaker force", "weaker pull", "less attracted", "held less", "weakly attracted", "attraction is weaker", "attract+less", "attracts it less", "weaker nuclear attraction"],
           feedback: "Link it to force: the nucleus attracts the outer electron less strongly — say \"weaker (electrostatic) attraction\".",
         },
         {
@@ -103,22 +103,22 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Chlorine is more reactive than bromine (so displaces it)",
-          keywords: ["more reactive", "chlorine+displaces", "higher+group", "reactive than bromine", "less reactive"],
+          keywords: ["chlorine is more reactive", "chlorine more reactive", "more reactive than bromine", "bromine is less reactive", "chlorine+displaces", "chlorine displaces", "displaces bromine"],
           feedback: "Explain the reaction: chlorine is more reactive than bromine, so it displaces bromine from its compound.",
         },
         {
           point: "Correct reactants: Cl₂ + 2Br⁻",
-          keywords: ["cl2 2br", "2br cl2", "cl2+2br yields", "cl2 2 br"],
+          keywords: ["cl2 2br", "2br cl2", "cl2+2br yields", "cl2 2 br", "cl2 aq 2br", "2br aq cl2"],
           feedback: "The reactants of the ionic equation are Cl₂ and 2Br⁻ — leave out Na⁺, which is a spectator ion.",
         },
         {
           point: "Correct products: 2Cl⁻ + Br₂ (balanced)",
-          keywords: ["yields 2cl br2", "yields br2 2cl", "2cl br2", "br2 2cl", "2 cl br2"],
+          keywords: ["yields 2cl br2", "yields br2 2cl", "2cl br2", "br2 2cl", "2 cl br2", "yields 2cl aq br2", "yields br2 aq 2cl"],
           feedback: "Products: 2Cl⁻ + Br₂. Check the balance — two bromide ions make one Br₂ molecule, and charge is 2− on both sides.",
         },
         {
           point: "Bromide ions oxidised because they lose electrons",
-          keywords: ["bromide+lose", "bromide+loses", "br+lose electrons", "br+loses electrons", "bromide+lost", "br2 2e", "bromide ions are oxidised+electron"],
+          keywords: ["bromide+lose", "bromide+loses", "br ions lose", "br loses", "br lose", "bromide+lost", "br2 2e", "bromide ions are oxidised+electron"],
           feedback: "Bromide ions lose electrons (2Br⁻ → Br₂ + 2e⁻), so bromide is oxidised. Chlorine gains electrons and is reduced.",
         },
       ],
@@ -152,7 +152,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Stronger attraction (of nucleus) for an incoming electron in chlorine",
-          keywords: ["stronger attraction", "greater attraction", "more attraction", "weaker attraction", "less attraction", "attraction+stronger", "attraction+weaker", "attracts+more strongly", "attracted+more strongly", "stronger pull", "weaker pull", "attract+less strongly", "pull+more strongly", "pulls+more", "pull+stronger", "attract+more strongly", "attracts+more"],
+          keywords: ["stronger attraction", "greater attraction", "more attraction", "weaker attraction", "less attraction", "attraction+stronger", "attraction+weaker", "attracts+more strongly", "attracted+more strongly", "stronger pull", "weaker pull", "attract+less strongly", "pull+more strongly", "pull+stronger", "attract+more strongly"],
           feedback: "State the force: the nucleus has a stronger attraction for an incoming electron in chlorine than in iodine.",
         },
         {
@@ -187,7 +187,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Litmus turns red in the water solution",
-          keywords: ["turns red", "goes red", "red", "becomes red", "changes to red"],
+          keywords: ["turns red", "goes red", "turn red", "becomes red", "changes to red", "changes red", "red in water"],
           feedback: "Describe the result in water: the blue litmus turns red, because the solution is acidic.",
         },
         {
@@ -300,17 +300,17 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Mg + Zn²⁺ → Mg²⁺ + Zn",
-          keywords: ["mg zn2 yields mg2 zn", "mg zn2+mg2 zn", "mg+zn2+mg2", "zn2 mg yields mg2 zn", "zn2 mg yields zn mg2", "mg zn2 yields zn mg2"],
+          keywords: ["mg zn2 yields mg2 zn", "mg zn2+mg2 zn", "mg s zn2 aq yields mg2 aq zn", "mg zn2 aq yields mg2 aq zn", "zn2 mg yields mg2 zn", "zn2 mg yields zn mg2", "mg zn2 yields zn mg2"],
           feedback: "Magnesium is above zinc, so it displaces it: Mg(s) + Zn²⁺(aq) → Mg²⁺(aq) + Zn(s). Sulfate is a spectator ion.",
         },
         {
           point: "Copper + silver nitrate reacts (copper more reactive than silver)",
-          keywords: ["copper+more reactive", "cu 2ag", "silver+less reactive", "copper+displaces", "2ag yields", "yields cu2 2ag", "cu+cu2"],
+          keywords: ["copper is more reactive", "copper more reactive", "more reactive than silver", "silver is less reactive", "copper displaces", "cu 2ag", "cu s 2ag", "2ag yields", "yields cu2 2ag", "yields cu2 aq 2ag", "cu+cu2"],
           feedback: "Copper is above silver in the reactivity series, so copper displaces silver.",
         },
         {
           point: "Cu + 2Ag⁺ → Cu²⁺ + 2Ag (balanced)",
-          keywords: ["cu 2ag yields cu2 2ag", "cu 2ag+cu2 2ag", "cu+2ag+cu2", "2ag cu yields cu2 2ag", "cu 2ag yields 2ag cu2"],
+          keywords: ["cu 2ag yields cu2 2ag", "cu 2ag+cu2 2ag", "cu+2ag+cu2", "2ag cu yields cu2 2ag", "cu 2ag yields 2ag cu2", "cu s 2ag aq yields cu2 aq 2ag", "cu 2ag aq yields cu2 aq 2ag"],
           feedback: "Balance the charge: one Cu atom gives 2 electrons, enough for 2 Ag⁺ ions — Cu + 2Ag⁺ → Cu²⁺ + 2Ag.",
         },
         {
@@ -320,7 +320,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Zinc + magnesium sulfate: no reaction because zinc is less reactive than magnesium",
-          keywords: ["no reaction", "zinc+less reactive", "does not react", "doesnt react", "wont react", "no change", "will not react", "magnesium+more reactive than zinc"],
+          keywords: ["zinc+no reaction", "zinc is less reactive", "zinc less reactive", "less reactive than magnesium", "zinc does not react", "zinc doesnt react", "zinc wont react", "zinc will not react", "magnesium is more reactive than zinc", "no reaction+zinc is"],
           feedback: "A less reactive metal cannot displace a more reactive one: zinc is below magnesium, so there is no reaction.",
         },
       ],
@@ -346,27 +346,27 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "C + O₂ → CO₂",
-          keywords: ["c o2 yields co2", "o2 c yields co2", "c o2+co2"],
+          keywords: ["c o2 yields co2", "o2 c yields co2", "c s o2 g yields co2"],
           feedback: "Coke is carbon burning in oxygen: C + O₂ → CO₂ (very exothermic — it heats the furnace).",
         },
         {
           point: "CO₂ + C → 2CO",
-          keywords: ["co2 c yields 2co", "c co2 yields 2co", "co2 c yields 2 co", "c co2 yields 2 co", "co2 c+2co"],
+          keywords: ["co2 c yields 2co", "c co2 yields 2co", "co2 c yields 2 co", "c co2 yields 2 co", "co2 g c s yields 2co", "c s co2 g yields 2co"],
           feedback: "Carbon dioxide is reduced by more coke: CO₂ + C → 2CO. Check the balance — 2 O on each side.",
         },
         {
           point: "Fe₂O₃ + 3CO → 2Fe + 3CO₂",
-          keywords: ["fe2o3 3co yields 2fe 3co2", "fe2o3 3co+2fe 3co2", "3co fe2o3 yields 2fe 3co2", "fe2o3 3 co yields 2 fe 3 co2"],
+          keywords: ["fe2o3 3co yields 2fe 3co2", "fe2o3 3co+2fe 3co2", "3co fe2o3 yields 2fe 3co2", "fe2o3 3 co yields 2 fe 3 co2", "fe2o3 s 3co g yields 2fe l 3co2"],
           feedback: "Fe₂O₃ + 3CO → 2Fe + 3CO₂: each CO removes one oxygen atom, so three are needed; carbon monoxide is the reducing agent.",
         },
         {
           point: "CaCO₃ → CaO + CO₂",
-          keywords: ["caco3 yields cao co2", "caco3+cao co2", "caco3 yields co2 cao"],
+          keywords: ["caco3 yields cao co2", "caco3+yields cao co2", "caco3 yields co2 cao", "caco3 s yields cao s co2"],
           feedback: "Limestone decomposes in the heat: CaCO₃ → CaO + CO₂.",
         },
         {
           point: "CaO + SiO₂ → CaSiO₃",
-          keywords: ["cao sio2 yields casio3", "sio2 cao yields casio3", "cao sio2+casio3"],
+          keywords: ["cao sio2 yields casio3", "sio2 cao yields casio3", "cao s sio2 s yields casio3", "cao sio2+yields casio3"],
           feedback: "Basic calcium oxide neutralises acidic silica to form slag: CaO + SiO₂ → CaSiO₃.",
         },
       ],
@@ -392,7 +392,7 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Aluminium is more reactive than carbon",
-          keywords: ["more reactive than carbon", "above carbon", "carbon+less reactive", "higher than carbon", "aluminium+more reactive"],
+          keywords: ["more reactive than carbon", "above carbon", "carbon is less reactive", "less reactive than aluminium", "higher than carbon", "above c", "aluminium is more reactive", "aluminium more reactive", "al is more reactive"],
           feedback: "Only metals below carbon can be reduced by carbon. Aluminium is above carbon in the reactivity series.",
         },
         {
@@ -402,17 +402,17 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "So less energy is needed / lower cost",
-          keywords: ["less energy", "save+energy", "saves energy", "cheaper", "lower cost", "less expensive", "reduce+cost", "saves money", "less electricity", "energy costs"],
+          keywords: ["less energy", "save+energy", "saves energy", "saving energy", "cheaper", "lower cost", "less expensive", "reduce+cost", "saves money", "less electricity", "energy costs"],
           feedback: "Link the lower temperature to the benefit: less energy is needed to keep it molten, so it is cheaper.",
         },
         {
           point: "Cathode: Al³⁺ + 3e⁻ → Al",
-          keywords: ["al3 3e yields al", "al3 3e+yields al", "al3 3 e yields al"],
+          keywords: ["al3 3e yields al", "al3 3e+yields al", "al3 3 e yields al", "al3+3e+yields al"],
           feedback: "At the negative electrode aluminium ions are reduced: Al³⁺ + 3e⁻ → Al.",
         },
         {
           point: "Anode: 2O²⁻ → O₂ + 4e⁻",
-          keywords: ["2o2 yields o2 4e", "2o2 4e yields o2", "2o2 yields 4e o2", "2 o2 yields o2 4e"],
+          keywords: ["2o2 yields o2 4e", "2o2 4e yields o2", "2o2 yields 4e o2", "2 o2 yields o2 4e", "2o2+yields o2+4e"],
           feedback: "At the positive electrode oxide ions are oxidised: 2O²⁻ → O₂ + 4e⁻.",
         },
         {

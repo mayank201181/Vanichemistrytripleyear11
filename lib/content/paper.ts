@@ -103,7 +103,7 @@ export const paper: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Moles of zinc = 9.75 ÷ 65 = 0.15 (mol)",
-          keywords: ["0.15", "0.150"],
+          keywords: ["0.15", "0.150", "9.75 65", "297 65", "4.57", "4.569"],
           feedback: "Moles of zinc = mass ÷ Ar = 9.75 ÷ 65 = **0.15 mol**.",
         },
         {
@@ -129,7 +129,7 @@ export const paper: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Correct substitution: 36.4 ÷ 44.55 (or ÷ 45) × 100",
-          keywords: ["44.55", "44.6", "44.5", "45"],
+          keywords: ["36.4 44.55", "36.4 44.6", "36.4 44.5", "36.4 45", "0.817", "0.809", "81.7", "81.71", "80.9", "80.89"],
           feedback: "Substitute: % yield = (36.4 ÷ **44.55**) × 100 — actual ÷ theoretical, never the other way round.",
         },
         {
@@ -239,7 +239,7 @@ export const paper: QuestionSet<QA> = {
         },
         {
           point: "Pure water boils at exactly 100 °C (or freezes at 0 °C)",
-          keywords: ["100", "0 degrees", "zero degrees", "0c", "0 c", "100c"],
+          keywords: ["100", "0 degrees", "zero degrees", "0c", "0 c", "100c", "freez+0", "melt+0"],
           feedback: "Pure water **boils at exactly 100 °C** (freezes at 0 °C). An impure sample would boil above 100 °C / over a range.",
         },
       ],
@@ -383,7 +383,7 @@ export const paper: QuestionSet<QA> = {
         },
         {
           point: "Levels off at half the final value (≈0.275 g)",
-          keywords: ["0.275", "0.28", "0.27", "0.3", "0.25", "0.26", "0.29", "halfway", "halved", "half as much", "half the height", "half the final", "half the amount", "half the total", "half of 0.55", "half of the original"],
+          keywords: ["0.275", "0.28", "0.27", "0.3", "0.25", "0.26", "0.29", "halfway", "mass+halved", "height+halved", "half as much", "half the height", "half the final", "half the amount", "half the total", "half of 0.55", "half of the original"],
           feedback: "Same volume at half the concentration = **half the moles of acid**, and the acid is limiting, so only half as much CO₂ forms: it levels off at **≈0.275 g**.",
         },
       ],
@@ -407,12 +407,12 @@ export const paper: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Particles have more (kinetic) energy / move faster",
-          keywords: ["more energy", "kinetic energy", "move faster", "moving faster", "faster", "more quickly", "speed up", "more kinetic"],
+          keywords: ["more energy", "kinetic energy", "move faster", "moving faster", "particles+faster", "molecules+faster", "move more quickly", "particles+speed up", "more kinetic"],
           feedback: "Start with the particles: at a higher temperature they **gain kinetic energy and move faster**.",
         },
         {
           point: "Collide more frequently / more collisions per second",
-          keywords: ["more frequent", "frequently", "frequency", "more often", "collisions per second", "collide more", "more collisions"],
+          keywords: ["more frequent", "frequently", "frequency", "more often", "collisions per second", "per second", "per unit time", "collide more often"],
           feedback: "Faster particles **collide more frequently** — say 'more collisions per second', not just 'more collisions'.",
         },
         {
@@ -510,7 +510,7 @@ export const paper: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Yellow to orange (allow yellow to red)",
-          keywords: ["yellow to orange", "yellow to red", "yellow into orange", "yellow yields orange", "yellow yields red", "from yellow", "yellow to pink", "yellow and turns orange", "yellow then orange", "yellow then red"],
+          keywords: ["yellow to orange", "yellow to red", "yellow into orange", "yellow yields orange", "yellow yields red", "from yellow", "yellow and turns orange", "yellow then orange", "yellow then red"],
           feedback: "Methyl orange is **yellow in alkali** and **red in acid**; at the end point it turns **orange**. Acid is added to alkali, so: **yellow → orange**.",
         },
       ],
@@ -588,12 +588,12 @@ export const paper: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Selects titrations 1 and 3 only (21.30 and 21.50)",
-          keywords: ["1 and 3", "21.3+21.5", "one and three"],
+          keywords: ["1 and 3", "21.3 21.5", "one and three"],
           feedback: "Check each pair: 21.30 and 21.50 differ by exactly 0.20 → **titrations 1 and 3** are concordant. 22.70 and 24.00 are too far off, and the rough is never used.",
         },
         {
           point: "Correct method: (21.30 + 21.50) ÷ 2",
-          keywords: ["42.8", "42.80", "21.5 2", "21.50 2", "divide", "divided", "over 2", "average of", "mean of", "halve"],
+          keywords: ["42.8", "42.80", "21.5 2", "21.3 21.5 2", "mean of 21.3 21.5", "average of 21.3 21.5", "21.3 21.5 yields 21.4"],
           feedback: "Add the concordant titres and divide by how many there are: (21.30 + 21.50) ÷ 2 = 42.80 ÷ 2.",
         },
         {
@@ -624,12 +624,12 @@ export const paper: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Mix the same volumes again (25.0 cm³ alkali + the mean titre of acid)",
-          keywords: ["same volume", "same volumes", "same amount", "same amounts", "21.4", "exact volume", "exact amount", "measured volume", "repeat+titration", "repeat the experiment", "titre volume", "mean titre", "correct volume", "volume found"],
+          keywords: ["same volume", "same volumes", "same amount", "same amounts", "21.4", "exact volume", "exact amount", "measured volume", "repeat+titration", "titration again", "repeat the experiment", "titre volume", "mean titre", "correct volume", "volume found"],
           feedback: "Mix **exactly the same volumes again** — 25.0 cm³ of NaOH with the mean titre (21.40 cm³) of nitric acid — so the solution is exactly neutral.",
         },
         {
           point: "Without the indicator (or remove it with charcoal)",
-          keywords: ["without+indicator", "no indicator", "without the indicator", "charcoal", "remove+indicator", "leave out+indicator", "dont add+indicator", "do not add+indicator", "not add+indicator", "omit+indicator", "indicator free"],
+          keywords: ["without indicator", "no indicator", "without methyl orange", "charcoal", "remove+indicator", "leave out+indicator", "dont add indicator", "not add indicator", "dont use indicator", "not use indicator", "omit+indicator", "indicator free"],
           feedback: "Leave out the **indicator** this time (or remove it by adding charcoal and filtering) — otherwise it contaminates the crystals.",
         },
         {

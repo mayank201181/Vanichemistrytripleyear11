@@ -24,7 +24,7 @@ An **endothermic** reaction takes in heat energy **from the surroundings**, so t
 
 **The calculation (two steps)**
 - Heat energy change: **Q = m × c × ΔT** (in J). Here *m* is the mass of the **water or solution** being heated (1 cm³ ≈ 1 g) — **not** the mass of the solid or fuel. c = 4.2 J/g/°C.
-- Molar enthalpy change: **ΔH = −Q ÷ n**, where *n* is the moles of the reactant that **is not in excess** (or of fuel burned). Divide by 1000 to give **kJ/mol**. The minus sign is added for a temperature **rise** (exothermic).
+- Molar enthalpy change: **ΔH = −Q ÷ n**, where *n* is the moles of the reactant that **is not in excess** (or of fuel burned). Divide by 1000 to give **kJ/mol**. Then check the sign against what happened: temperature **rise** → exothermic → ΔH **negative**; temperature **fall** → endothermic → ΔH **positive**. Always write the sign (− or +) in front of your final answer.
 
 **Sources of error.** The big one is **heat loss to the surroundings** (through the cup, the open top, from the copper can to the air), so experimental values are usually **less exothermic** than data-book values. Combustion also suffers from **incomplete combustion** (soot on the can) and evaporation of fuel from the wick. Improvements: lid, insulation, draught shield, measuring the temperature quickly.
 
@@ -101,7 +101,7 @@ If more energy is released making the new bonds than is used breaking the old on
 - The **cotton wool plug** lets the CO₂ out but **stops acid spray / droplets escaping** — so the only mass lost is CO₂.
 - Alternative: collect the CO₂ in a **gas syringe** and record the volume every 30 s.
 
-**Why not sulfuric acid?** CaCO₃ + H₂SO₄ → CaSO₄ + H₂O + CO₂. **Calcium sulfate is insoluble** (only slightly soluble), so it forms a **layer on the surface of the chips**. This **stops the acid reaching the calcium carbonate**, so the reaction slows down and stops before the acid is used up. (The same problem applies to calcium carbonate powder — and to any calcium, barium or lead compound with sulfuric acid.)
+**Why not sulfuric acid?** CaCO₃ + H₂SO₄ → CaSO₄ + H₂O + CO₂. **Calcium sulfate is insoluble** (only slightly soluble), so it forms a **layer on the surface of the chips**. This **stops the acid reaching the calcium carbonate**, so the reaction slows down and stops before the acid is used up. (The same problem applies to calcium carbonate powder — and to calcium, barium or lead(II) carbonate with sulfuric acid, because their sulfates are all insoluble.)
 
 **Reading the graph (mass lost against time)**
 - **Steep at the start** — the rate is **fastest** because the **acid concentration is highest**: most acid particles, most **frequent** collisions.

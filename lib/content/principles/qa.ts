@@ -34,7 +34,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "So the kinetic energy of the particles does not increase (so temperature stays constant)",
-          keywords: ["kinetic", "move faster", "moving faster", "speed up", "not+faster", "instead of", "rather than", "not raise", "not increase", "not to increase", "not used to", "not speed", "dont speed", "not move faster", "dont move faster"],
+          keywords: ["kinetic", "move faster", "moving faster", "speed up", "not+faster", "instead of", "rather than", "not to increase", "not used to", "not speed", "dont speed", "not move faster", "dont move faster"],
           feedback: "Link to temperature: the energy is NOT increasing the kinetic energy of the particles, so the temperature cannot rise until melting is complete.",
         },
       ],
@@ -75,7 +75,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "So ammonia particles move faster / travel further in the same time",
-          keywords: ["faster", "quicker", "more quickly", "further", "greater speed", "higher speed", "more speed", "more slowly", "slower"],
+          keywords: ["ammonia+faster", "nh3+faster", "ammonia+quicker", "ammonia+more quickly", "ammonia+further", "nh3+further", "ammonia+greater speed", "ammonia+higher speed", "hcl+slower", "hcl+more slowly", "hydrogen chloride+slower", "hydrogen chloride+more slowly", "lighter+faster", "lighter+further", "heavier+slower", "heavier+more slowly"],
           feedback: "Finish the chain: lighter particles move faster, so ammonia travels further before meeting HCl - that is why the ring is nearer the acid end.",
         },
       ],
@@ -188,7 +188,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Boils at exactly 100 °C (or freezes at exactly 0 °C)",
-          keywords: ["100", "0 degrees", "zero degrees", "freezes at 0", "melts at 0", "at 0"],
+          keywords: ["100", "100c", "0c", "0 degrees", "zero degrees", "freezes at 0", "melts at 0", "at 0"],
           feedback: "You must give the value: pure water boils at exactly 100 °C (or freezes at 0 °C) at 1 atm. Impurities change these values.",
         },
         {
@@ -311,12 +311,12 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Boron-10 = 20%",
-          keywords: ["boron 10 20", "boron 10 is 20", "boron 10 has 20", "boron 10 abundance 20", "20 percent of boron 10", "20 percent is boron 10", "20 percent are boron 10", "x is 20", "x 20", "1100 1080"],
+          keywords: ["boron 10 20", "boron 10 is 20", "boron 10 has 20", "boron 10 abundance 20", "20 percent of boron 10", "20 percent is boron 10", "20 percent are boron 10", "x is 20", "x 20", "x yields 20", "1100 1080", "boron 10 yields 20", "b 10 yields 20", "b10 yields 20", "b 10 20", "b10 20", "b 10 is 20", "b10 is 20", "10 yields 20", "10 is 20"],
           feedback: "Solve: 1100 − x = 1080, so x = 20% boron-10.",
         },
         {
           point: "Boron-11 = 80%",
-          keywords: ["boron 11 80", "boron 11 is 80", "boron 11 has 80", "boron 11 abundance 80", "80 percent of boron 11", "80 percent is boron 11", "80 percent are boron 11", "100 20", "100 minus 20"],
+          keywords: ["boron 11 80", "boron 11 is 80", "boron 11 has 80", "boron 11 abundance 80", "80 percent of boron 11", "80 percent is boron 11", "80 percent are boron 11", "100 20", "100 minus 20", "boron 11 yields 80", "b 11 yields 80", "b11 yields 80", "b 11 80", "b11 80", "b 11 is 80", "b11 is 80", "11 yields 80", "11 is 80"],
           feedback: "The two abundances add to 100%, so boron-11 = 100 − 20 = 80%. Check: Ar is nearer 11, so boron-11 should be the major isotope.",
         },
       ],
@@ -403,7 +403,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Solution is acidic / pH below 7",
-          keywords: ["acidic", "acid", "below 7", "less than 7", "lower than 7", "under 7", "ph 1", "ph 2", "ph 3", "ph 4", "ph 5", "ph 6"],
+          keywords: ["acidic", "acid", "below 7", "less than 7", "lower than 7", "under 7", "ph 1", "ph 2", "ph 3", "ph 4", "ph 5", "ph 6", "ph of 2", "ph of 3", "ph of 4", "ph of about", "ph of around", "ph will be about", "about 3", "around 3", "about 2", "around 2"],
           feedback: "Predict an acidic solution, pH below 7 (sulfur dioxide gives sulfurous acid).",
         },
         {
