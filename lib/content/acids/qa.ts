@@ -458,7 +458,7 @@ export const qa: QuestionSet<QA> = {
       markScheme: [
         {
           point: "Both are strongly acidic (pH 1 and pH 3 are both in the range 0–3)",
-          keywords: ["both+strong", "both strongly", "q is strong", "q is also strong", "q is a strong", "they are strong", "both are strong"],
+          keywords: ["both strongly", "q is strong", "q is also strong", "q is a strong", "they are strong", "both are strong"],
           feedback: "Strongly acidic is pH 0–3, so BOTH are strongly acidic — pH 3 is not weakly acidic (that starts at pH 4).",
         },
         {
@@ -468,7 +468,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "100 times higher (factor of 10 per pH unit)",
-          keywords: ["100", "hundred", "10 x 10", "10 × 10"],
+          keywords: ["100", "100x", "hundred", "10 x 10", "10 × 10"],
           feedback: "Two pH units apart = 10 × 10 = 100 times the H⁺ concentration — not 2 or 3 times.",
         },
       ],

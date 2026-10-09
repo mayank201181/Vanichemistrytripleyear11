@@ -448,7 +448,7 @@ export const qa: QuestionSet<QA> = {
         },
         {
           point: "Indicator turns blue/purple — alkaline solution formed",
-          keywords: ["blue", "purple", "alkaline", "alkali", "hydroxide"],
+          keywords: ["blue", "purple", "alkaline", "ph above 7", "ph of 8"],
           feedback: "All three make a metal hydroxide that dissolves to give an alkaline solution, so universal indicator turns blue/purple.",
         },
         {
