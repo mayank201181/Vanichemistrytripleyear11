@@ -1,0 +1,28 @@
+import type { GlossaryCard } from "../../types";
+
+export const glossary: GlossaryCard[] = [
+  { topic: "bonding", term: "Ion", definition: "An atom or group of atoms with an electrical charge, formed by losing or gaining electrons.", example: "Na⁺, Cl⁻, SO₄²⁻" },
+  { topic: "bonding", term: "Cation", definition: "A positive ion, formed when an atom (usually a metal) loses electrons.", example: "Mg → Mg²⁺ + 2e⁻" },
+  { topic: "bonding", term: "Anion", definition: "A negative ion, formed when an atom (usually a non-metal) gains electrons.", example: "O + 2e⁻ → O²⁻" },
+  { topic: "bonding", term: "Ionic bond", definition: "The strong electrostatic attraction between oppositely charged ions.", example: "Between Na⁺ and Cl⁻ in sodium chloride" },
+  { topic: "bonding", term: "Compound ion", definition: "A group of covalently bonded atoms that carries an overall charge.", example: "NH₄⁺, OH⁻, NO₃⁻, SO₄²⁻, CO₃²⁻" },
+  { topic: "bonding", term: "Giant ionic lattice", definition: "A regular, repeating three-dimensional arrangement of alternating positive and negative ions held by strong electrostatic attractions in all directions.", example: "NaCl: each Na⁺ is surrounded by 6 Cl⁻" },
+  { topic: "bonding", term: "Dot-and-cross diagram", definition: "A diagram showing the (outer) electrons of each atom as dots or crosses, to show how electrons are transferred (ionic) or shared (covalent). Ions are drawn in square brackets with the charge at the top right.", example: "[Na]⁺ [Cl]⁻ with 8 electrons around Cl" },
+  { topic: "bonding", term: "Covalent bond", definition: "A shared pair of electrons between two atoms; the strong electrostatic attraction between the shared pair and the nuclei of the bonded atoms.", example: "H–H in H₂" },
+  { topic: "bonding", term: "Double bond", definition: "A covalent bond in which two pairs of electrons are shared between two atoms.", example: "O=O, O=C=O, C=C in ethene" },
+  { topic: "bonding", term: "Triple bond", definition: "A covalent bond in which three pairs of electrons are shared between two atoms.", example: "N≡N in nitrogen" },
+  { topic: "bonding", term: "Lone pair", definition: "A pair of outer-shell electrons that is not involved in bonding (non-bonding pair).", example: "NH₃ has one lone pair on N; H₂O has two on O" },
+  { topic: "bonding", term: "Simple molecular substance", definition: "A substance made of small molecules with strong covalent bonds within each molecule but only weak intermolecular forces between molecules, so it has low melting and boiling points.", example: "H₂O, CO₂, CH₄, I₂" },
+  { topic: "bonding", term: "Intermolecular forces", definition: "Weak forces of attraction between molecules. They are overcome when a simple molecular substance melts or boils; they get stronger as relative molecular mass increases.", example: "Boiling water separates H₂O molecules; no O–H bonds break" },
+  { topic: "bonding", term: "Giant covalent structure", definition: "A huge network of atoms all joined by strong covalent bonds; very high melting point because many strong covalent bonds must be broken.", example: "Diamond, graphite, silicon dioxide" },
+  { topic: "bonding", term: "Diamond", definition: "A giant covalent form of carbon in which each atom is bonded to four others; very hard, very high melting point, does not conduct (no delocalised electrons).", example: "Used in cutting tools and drill tips" },
+  { topic: "bonding", term: "Graphite", definition: "A giant covalent form of carbon in which each atom is bonded to three others in hexagonal layers; one delocalised electron per atom lets it conduct, and weak forces between layers let them slide.", example: "Electrodes, pencils, lubricant" },
+  { topic: "bonding", term: "C₆₀ fullerene", definition: "A simple molecular form of carbon: hollow spherical molecules of 60 atoms. Weak intermolecular forces make it soft with a low sublimation point; it is a poor conductor because electrons cannot move between molecules.", example: "Buckminsterfullerene (Triple only)" },
+  { topic: "bonding", term: "Delocalised electrons", definition: "Electrons that are not attached to a particular atom or bond and are free to move through the structure.", example: "In metals and in graphite" },
+  { topic: "bonding", term: "Metallic bonding", definition: "The strong electrostatic attraction between positive metal ions and delocalised electrons.", example: "Copper: Cu²⁺ ions in a sea of delocalised electrons" },
+  { topic: "bonding", term: "Malleable", definition: "Can be hammered or pressed into shape without breaking, because layers of positive ions can slide over each other.", example: "Aluminium foil" },
+  { topic: "bonding", term: "Ductile", definition: "Can be drawn out into wires, because layers of positive ions can slide over each other while the metallic bonding is maintained.", example: "Copper wiring" },
+  { topic: "bonding", term: "Alloy", definition: "A mixture of a metal with one or more other elements. It is harder than the pure metal because different-sized atoms disrupt the layers, so they cannot slide over each other as easily.", example: "Steel (iron + carbon), brass (copper + zinc)" },
+  { topic: "bonding", term: "Molecule", definition: "Two or more atoms covalently bonded together.", example: "O₂, Cl₂ (elements); H₂O, CO₂ (compounds)" },
+  { topic: "bonding", term: "Allotropes", definition: "Different structural forms of the same element in the same physical state.", example: "Diamond, graphite and C₆₀ fullerene are allotropes of carbon" },
+];
