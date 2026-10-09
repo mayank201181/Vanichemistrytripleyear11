@@ -4,16 +4,16 @@ const PH_SVG = `<svg viewBox="0 0 330 150" xmlns="http://www.w3.org/2000/svg" ro
 <text x="165" y="16" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0f172a" font-weight="bold">The pH scale and universal indicator</text>
 <rect x="15" y="28" width="20" height="34" fill="#dc2626"/>
 <rect x="35" y="28" width="20" height="34" fill="#dc2626"/>
-<rect x="55" y="28" width="20" height="34" fill="#ef4444"/>
-<rect x="75" y="28" width="20" height="34" fill="#f97316"/>
-<rect x="95" y="28" width="20" height="34" fill="#fb923c"/>
+<rect x="55" y="28" width="20" height="34" fill="#dc2626"/>
+<rect x="75" y="28" width="20" height="34" fill="#ef4444"/>
+<rect x="95" y="28" width="20" height="34" fill="#f97316"/>
 <rect x="115" y="28" width="20" height="34" fill="#facc15"/>
 <rect x="135" y="28" width="20" height="34" fill="#fde047"/>
 <rect x="155" y="28" width="20" height="34" fill="#16a34a"/>
-<rect x="175" y="28" width="20" height="34" fill="#0d9488"/>
+<rect x="175" y="28" width="20" height="34" fill="#38bdf8"/>
 <rect x="195" y="28" width="20" height="34" fill="#0284c7"/>
 <rect x="215" y="28" width="20" height="34" fill="#2563eb"/>
-<rect x="235" y="28" width="20" height="34" fill="#4f46e5"/>
+<rect x="235" y="28" width="20" height="34" fill="#7c3aed"/>
 <rect x="255" y="28" width="20" height="34" fill="#6d28d9"/>
 <rect x="275" y="28" width="20" height="34" fill="#7e22ce"/>
 <rect x="295" y="28" width="20" height="34" fill="#581c87"/>
